@@ -49,7 +49,7 @@ package labrpc
 //   pass svc to srv.AddService()
 //
 
-import "../labgob"
+import "6.824/src/labgob"
 import "bytes"
 import "reflect"
 import "sync"
@@ -88,6 +88,7 @@ func (e *ClientEnd) Call(svcMeth string, args interface{}, reply interface{}) bo
 	req.argsType = reflect.TypeOf(args)
 	req.replyCh = make(chan replyMsg)
 
+    //参数用gob编码
 	qb := new(bytes.Buffer)
 	qe := labgob.NewEncoder(qb)
 	qe.Encode(args)
@@ -97,8 +98,10 @@ func (e *ClientEnd) Call(svcMeth string, args interface{}, reply interface{}) bo
 	// send the request.
 	//
 	select {
+    //e.ch管道模拟网络,请求将交给NetWork处理
 	case e.ch <- req:
 		// the request has been sent.
+    //e.done管道接收网络失败信息
 	case <-e.done:
 		// entire Network has been destroyed.
 		return false
@@ -109,6 +112,7 @@ func (e *ClientEnd) Call(svcMeth string, args interface{}, reply interface{}) bo
 	//
 	rep := <-req.replyCh
 	if rep.ok {
+        //gob解码
 		rb := bytes.NewBuffer(rep.reply)
 		rd := labgob.NewDecoder(rb)
 		if err := rd.Decode(reply); err != nil {
@@ -120,6 +124,7 @@ func (e *ClientEnd) Call(svcMeth string, args interface{}, reply interface{}) bo
 	}
 }
 
+//模拟故障、延迟的网络环境
 type Network struct {
 	mu             sync.Mutex
 	reliable       bool
@@ -138,14 +143,18 @@ type Network struct {
 func MakeNetwork() *Network {
 	rn := &Network{}
 	rn.reliable = true
+    //客户端
 	rn.ends = map[interface{}]*ClientEnd{}
 	rn.enabled = map[interface{}]bool{}
+    //服务器端
 	rn.servers = map[interface{}]*Server{}
+    //客户端到服务器端连接
 	rn.connections = map[interface{}](interface{}){}
 	rn.endCh = make(chan reqMsg)
 	rn.done = make(chan struct{})
 
 	// single goroutine to handle all ClientEnd.Call()s
+    //单线程处理所有的RPC
 	go func() {
 		for {
 			select {
@@ -162,6 +171,7 @@ func MakeNetwork() *Network {
 	return rn
 }
 
+//关闭网络
 func (rn *Network) Cleanup() {
 	close(rn.done)
 }
@@ -212,7 +222,7 @@ func (rn *Network) isServerDead(endname interface{}, servername interface{}, ser
 	}
 	return false
 }
-
+//处理RPC请求
 func (rn *Network) processReq(req reqMsg) {
 	enabled, servername, server, reliable, longreordering := rn.readEndnameInfo(req.endname)
 
@@ -233,6 +243,7 @@ func (rn *Network) processReq(req reqMsg) {
 		// in a separate thread so that we can periodically check
 		// if the server has been killed and the RPC should get a
 		// failure reply.
+        //启动一个线程，把请求交给server处理
 		ech := make(chan replyMsg)
 		go func() {
 			r := server.dispatch(req)
@@ -249,6 +260,7 @@ func (rn *Network) processReq(req reqMsg) {
 			select {
 			case reply = <-ech:
 				replyOK = true
+            //每100ms检测server是否dead
 			case <-time.After(100 * time.Millisecond):
 				serverDead = rn.isServerDead(req.endname, servername, server)
 				if serverDead {
@@ -318,6 +330,7 @@ func (rn *Network) MakeEnd(endname interface{}) *ClientEnd {
 
 	e := &ClientEnd{}
 	e.endname = endname
+    //client的请求会通过管道交给NetWork处理
 	e.ch = rn.endCh
 	e.done = rn.done
 	rn.ends[endname] = e

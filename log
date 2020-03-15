@@ -1,0 +1,1410 @@
+warning: only one CPU, which may conceal locking bugs
+2020/03/14 23:50:34 raft 0 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:34 raft 2 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:34 raft 3 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:34 raft 4 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:34 raft 1 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:34 raft 0 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:34 raft 3 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:34 raft 2 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:34 raft 1 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:34 raft 4 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:34 raft 2 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:34 raft 1 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:34 raft 3 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:34 raft 0 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:34 raft 1 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:34 raft 3 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:34 raft 4 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:34 raft 2 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:34 raft 1 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:34 raft 0 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:34 raft 4 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:34 raft 3 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:34 raft 1 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:34 raft 2 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:34 raft 0 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:34 raft 3 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:34 raft 4 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:34 raft 0 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:34 raft 2 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:34 raft: 3, term: 1 become candidate
+2020/03/14 23:50:34 raft: 4, term: 1 become follower
+2020/03/14 23:50:34 raft: 0, term: 1 become follower
+2020/03/14 23:50:34 raft: 3, term: 1 become leader
+2020/03/14 23:50:34 raft 3 start next ping round
+2020/03/14 23:50:34 raft: 4, term: 1 become follower
+2020/03/14 23:50:34 raft 4, log len:1, commitIndex:0,lastAppliedIndex:0
+2020/03/14 23:50:34 raft 3, matchIndex [0 0 0 0 0]
+2020/03/14 23:50:34 raft: 1, term: 1 become follower
+2020/03/14 23:50:34 raft: 2, term: 1 become follower
+2020/03/14 23:50:34 raft: 0, term: 1 become follower
+2020/03/14 23:50:34 raft 0, log len:1, commitIndex:0,lastAppliedIndex:0
+2020/03/14 23:50:34 raft 3, matchIndex [0 0 0 0 0]
+2020/03/14 23:50:34 raft: 1, term: 1 become follower
+2020/03/14 23:50:34 raft 1, log len:1, commitIndex:0,lastAppliedIndex:0
+2020/03/14 23:50:34 raft 3, matchIndex [0 0 0 0 0]
+2020/03/14 23:50:34 raft: 2, term: 1 become follower
+2020/03/14 23:50:34 raft 2, log len:1, commitIndex:0,lastAppliedIndex:0
+2020/03/14 23:50:34 raft 3, matchIndex [0 0 0 0 0]
+2020/03/14 23:50:34 raft: 4, term: 1 become follower
+2020/03/14 23:50:34 raft 4, log len:1, commitIndex:0,lastAppliedIndex:0
+2020/03/14 23:50:34 raft 3, matchIndex [0 0 0 0 0]
+2020/03/14 23:50:34 raft: 0, term: 1 become follower
+2020/03/14 23:50:34 raft 0, log len:1, commitIndex:0,lastAppliedIndex:0
+2020/03/14 23:50:34 raft 3, matchIndex [0 0 0 0 0]
+2020/03/14 23:50:34 raft: 1, term: 1 become follower
+2020/03/14 23:50:34 raft 1, log len:1, commitIndex:0,lastAppliedIndex:0
+2020/03/14 23:50:34 raft 3, matchIndex [0 0 0 0 0]
+2020/03/14 23:50:34 raft: 2, term: 1 become follower
+2020/03/14 23:50:34 raft 2, log len:1, commitIndex:0,lastAppliedIndex:0
+2020/03/14 23:50:34 raft 3, matchIndex [0 0 0 0 0]
+2020/03/14 23:50:34 raft 1 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:34 raft 3 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:34 raft 0 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:34 raft 4 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:34 raft 0 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:34 raft 1 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:34 raft 2 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:34 raft 3 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:34 raft 4 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:34 raft 1 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:34 raft 0 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:34 raft 3 start next ping round
+2020/03/14 23:50:34 raft: 4, term: 1 become follower
+2020/03/14 23:50:34 raft 4, log len:1, commitIndex:0,lastAppliedIndex:0
+2020/03/14 23:50:34 raft 3, matchIndex [0 0 0 0 0]
+2020/03/14 23:50:34 raft: 0, term: 1 become follower
+2020/03/14 23:50:34 raft 0, log len:1, commitIndex:0,lastAppliedIndex:0
+2020/03/14 23:50:34 raft 3, matchIndex [0 0 0 0 0]
+2020/03/14 23:50:34 raft: 1, term: 1 become follower
+2020/03/14 23:50:34 raft 1, log len:1, commitIndex:0,lastAppliedIndex:0
+2020/03/14 23:50:34 raft 3, matchIndex [0 0 0 0 0]
+2020/03/14 23:50:34 raft: 2, term: 1 become follower
+2020/03/14 23:50:34 raft 2, log len:1, commitIndex:0,lastAppliedIndex:0
+2020/03/14 23:50:34 raft 3, matchIndex [0 0 0 0 0]
+2020/03/14 23:50:34 raft 2 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:34 raft 3 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:34 raft 0 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:34 raft 4 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:34 raft 1 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:34 raft 2 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:34 raft 4 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:34 raft 3 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:34 raft 3 start next ping round
+2020/03/14 23:50:34 raft: 4, term: 1 become follower
+2020/03/14 23:50:34 raft 4, log len:1, commitIndex:0,lastAppliedIndex:0
+2020/03/14 23:50:34 raft 3, matchIndex [0 0 0 0 0]
+2020/03/14 23:50:34 raft: 0, term: 1 become follower
+2020/03/14 23:50:34 raft 0, log len:1, commitIndex:0,lastAppliedIndex:0
+2020/03/14 23:50:34 raft 3, matchIndex [0 0 0 0 0]
+2020/03/14 23:50:34 raft: 1, term: 1 become follower
+2020/03/14 23:50:34 raft 1, log len:1, commitIndex:0,lastAppliedIndex:0
+2020/03/14 23:50:34 raft 3, matchIndex [0 0 0 0 0]
+2020/03/14 23:50:34 raft: 2, term: 1 become follower
+2020/03/14 23:50:34 raft 2, log len:1, commitIndex:0,lastAppliedIndex:0
+2020/03/14 23:50:34 raft 3, matchIndex [0 0 0 0 0]
+2020/03/14 23:50:34 raft 0 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:34 raft 1 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:34 raft 2 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:34 raft 4 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:34 raft 0 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:34 raft 3 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:34 raft 1 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:34 raft 2 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:34 raft 4 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:35 raft 1 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:35 raft 3 start next ping round
+2020/03/14 23:50:35 raft: 4, term: 1 become follower
+2020/03/14 23:50:35 raft 4, log len:1, commitIndex:0,lastAppliedIndex:0
+2020/03/14 23:50:35 raft 3, matchIndex [0 0 0 0 0]
+2020/03/14 23:50:35 raft: 0, term: 1 become follower
+2020/03/14 23:50:35 raft 0, log len:1, commitIndex:0,lastAppliedIndex:0
+2020/03/14 23:50:35 raft 3, matchIndex [0 0 0 0 0]
+2020/03/14 23:50:35 raft: 1, term: 1 become follower
+2020/03/14 23:50:35 raft 1, log len:1, commitIndex:0,lastAppliedIndex:0
+2020/03/14 23:50:35 raft 3, matchIndex [0 0 0 0 0]
+2020/03/14 23:50:35 raft: 2, term: 1 become follower
+2020/03/14 23:50:35 raft 2, log len:1, commitIndex:0,lastAppliedIndex:0
+2020/03/14 23:50:35 raft 3, matchIndex [0 0 0 0 0]
+2020/03/14 23:50:35 raft 3 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:35 raft 0 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:35 raft 4 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:35 raft 1 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:35 raft 2 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:35 raft 3 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:35 raft 1 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:35 raft 4 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:35 raft 0 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:35 raft 2 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:35 raft 3 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:35 raft 3 start next ping round
+2020/03/14 23:50:35 raft: 4, term: 1 become follower
+2020/03/14 23:50:35 raft 4, log len:1, commitIndex:0,lastAppliedIndex:0
+2020/03/14 23:50:35 raft 3, matchIndex [0 0 0 0 0]
+2020/03/14 23:50:35 raft: 0, term: 1 become follower
+2020/03/14 23:50:35 raft 0, log len:1, commitIndex:0,lastAppliedIndex:0
+2020/03/14 23:50:35 raft 3, matchIndex [0 0 0 0 0]
+2020/03/14 23:50:35 raft: 1, term: 1 become follower
+2020/03/14 23:50:35 raft 1, log len:1, commitIndex:0,lastAppliedIndex:0
+2020/03/14 23:50:35 raft 3, matchIndex [0 0 0 0 0]
+2020/03/14 23:50:35 raft: 2, term: 1 become follower
+2020/03/14 23:50:35 raft 2, log len:1, commitIndex:0,lastAppliedIndex:0
+2020/03/14 23:50:35 raft 3, matchIndex [0 0 0 0 0]
+2020/03/14 23:50:35 raft 1 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:35 raft 0 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:35 raft 1 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:35 raft 4 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:35 raft 2 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:35 raft 3 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:35 raft 0 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:35 raft 4 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:35 raft 3 start next ping round
+2020/03/14 23:50:35 raft: 4, term: 1 become follower
+2020/03/14 23:50:35 raft 4, log len:1, commitIndex:0,lastAppliedIndex:0
+2020/03/14 23:50:35 raft 3, matchIndex [0 0 0 0 0]
+2020/03/14 23:50:35 raft: 0, term: 1 become follower
+2020/03/14 23:50:35 raft 0, log len:1, commitIndex:0,lastAppliedIndex:0
+2020/03/14 23:50:35 raft 3, matchIndex [0 0 0 0 0]
+2020/03/14 23:50:35 raft: 1, term: 1 become follower
+2020/03/14 23:50:35 raft 1, log len:1, commitIndex:0,lastAppliedIndex:0
+2020/03/14 23:50:35 raft 3, matchIndex [0 0 0 0 0]
+2020/03/14 23:50:35 raft: 2, term: 1 become follower
+2020/03/14 23:50:35 raft 2, log len:1, commitIndex:0,lastAppliedIndex:0
+2020/03/14 23:50:35 raft 3, matchIndex [0 0 0 0 0]
+2020/03/14 23:50:35 raft 2 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:35 raft 1 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:35 raft 3 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:35 raft 2 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:35 raft 0 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:35 raft 1 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:35 raft 4 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:35 raft 2 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:35 raft 0 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:35 raft 3 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:35 raft 3 start next ping round
+2020/03/14 23:50:35 raft: 4, term: 1 become follower
+2020/03/14 23:50:35 raft 4, log len:1, commitIndex:0,lastAppliedIndex:0
+2020/03/14 23:50:35 raft 3, matchIndex [0 0 0 0 0]
+2020/03/14 23:50:35 raft: 0, term: 1 become follower
+2020/03/14 23:50:35 raft 0, log len:1, commitIndex:0,lastAppliedIndex:0
+2020/03/14 23:50:35 raft 3, matchIndex [0 0 0 0 0]
+2020/03/14 23:50:35 raft: 1, term: 1 become follower
+2020/03/14 23:50:35 raft 1, log len:1, commitIndex:0,lastAppliedIndex:0
+2020/03/14 23:50:35 raft 3, matchIndex [0 0 0 0 0]
+2020/03/14 23:50:35 raft: 2, term: 1 become follower
+2020/03/14 23:50:35 raft 2, log len:1, commitIndex:0,lastAppliedIndex:0
+2020/03/14 23:50:35 raft 3, matchIndex [0 0 0 0 0]
+2020/03/14 23:50:35 raft 1 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:35 raft 2 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:35 raft 3 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:35 raft 4 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:35 raft 0 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:35 raft 3 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:35 raft 4 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:35 raft 2 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:35 raft 0 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:35 raft 1 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:35 raft 3 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:35 raft 4 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:35 raft 3, currentTerm:1, state:LEADER, get commmand:{Command:Put ClientId:3406674726706869996 Seq:0 Key:1 Value:13}
+2020/03/14 23:50:35 raft 3 get command, log len 2, commitIndex 0
+2020/03/14 23:50:35 raft 3 start next ping round
+2020/03/14 23:50:35 raft: 4, term: 1 become follower
+2020/03/14 23:50:35 raft 4, log len:2, commitIndex:0,lastAppliedIndex:0
+2020/03/14 23:50:35 raft 3, matchIndex [0 0 0 1 1]
+2020/03/14 23:50:35 raft: 0, term: 1 become follower
+2020/03/14 23:50:35 raft 0, log len:2, commitIndex:0,lastAppliedIndex:0
+2020/03/14 23:50:35 raft 3, matchIndex [1 0 0 1 1]
+2020/03/14 23:50:35 raft 3 advance commit index to 1
+2020/03/14 23:50:35 raft: 1, term: 1 become follower
+2020/03/14 23:50:35 raft 1, log len:2, commitIndex:0,lastAppliedIndex:0
+2020/03/14 23:50:35 raft 3, matchIndex [1 1 0 1 1]
+2020/03/14 23:50:35 raft: 2, term: 1 become follower
+2020/03/14 23:50:35 raft 2, log len:2, commitIndex:0,lastAppliedIndex:0
+2020/03/14 23:50:35 raft 3, matchIndex [1 1 1 1 1]
+2020/03/14 23:50:35 raft 3 start apply, commitIndex 1, lastApplied 0
+2020/03/14 23:50:35 raft 3, apply cammand: 1
+2020/03/14 23:50:35 server:3 apply command,index:1, Put, key:1, value:13=========================
+2020/03/14 23:50:35 hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhyyyyyyyyyyyyyyyyyyyyyyy
+2020/03/14 23:50:35 yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+2020/03/14 23:50:35 {Put 3406674726706869996 0 1 13}
+2020/03/14 23:50:35 Put key 1,value 13 succeed
+Test: progress in majority (3A) ...
+2020/03/14 23:50:35 raft 0 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:35 raft 2 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:35 raft 1 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:35 raft 4 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:35 raft 0 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:35 raft 4 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:35 raft 2 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:35 raft 3 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:35 raft 0 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:35 raft 3 start next ping round
+2020/03/14 23:50:35 raft: 4, term: 1 become follower
+2020/03/14 23:50:35 raft 4, log len:2, commitIndex:1,lastAppliedIndex:0
+2020/03/14 23:50:35 raft 3, matchIndex [1 1 1 1 1]
+2020/03/14 23:50:35 raft 1 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:35 raft 4 start apply, commitIndex 1, lastApplied 0
+2020/03/14 23:50:35 raft 4, apply cammand: 1
+2020/03/14 23:50:35 server:4 apply command,index:1, Put, key:1, value:13=========================
+2020/03/14 23:50:35 hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhyyyyyyyyyyyyyyyyyyyyyyy
+2020/03/14 23:50:35 yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+2020/03/14 23:50:35 raft 2 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:35 raft 3 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:35 raft 1 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:35 raft 0 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:35 raft 4 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:35 raft 2 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:35 raft 1 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:35 raft 3 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:35 raft 4 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:35 raft 0 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:35 raft 3 start next ping round
+2020/03/14 23:50:35 raft: 4, term: 1 become follower
+2020/03/14 23:50:35 raft 4, log len:2, commitIndex:1,lastAppliedIndex:1
+2020/03/14 23:50:35 raft 3, matchIndex [1 1 1 1 1]
+2020/03/14 23:50:35 raft 2 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:35 raft 1 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:35 raft 4 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:35 raft 1 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:35 raft 3 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:35 raft 4 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:35 raft 2 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:35 raft 0 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:35 raft 4 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:35 raft 3 start next ping round
+2020/03/14 23:50:35 raft: 4, term: 1 become follower
+2020/03/14 23:50:35 raft 4, log len:2, commitIndex:1,lastAppliedIndex:1
+2020/03/14 23:50:35 raft 3, matchIndex [1 1 1 1 1]
+2020/03/14 23:50:35 raft: 0, term: 2 become candidate
+2020/03/14 23:50:35 raft: 1, term: 2 become follower
+2020/03/14 23:50:35 raft: 2, term: 2 become follower
+2020/03/14 23:50:35 raft: 0, term: 2 become leader
+2020/03/14 23:50:35 raft 0 start next ping round
+2020/03/14 23:50:35 raft: 1, term: 2 become follower
+2020/03/14 23:50:35 raft 1, log len:2, commitIndex:0,lastAppliedIndex:0
+2020/03/14 23:50:35 raft 0, matchIndex [1 1 0 0 0]
+2020/03/14 23:50:35 raft: 2, term: 2 become follower
+2020/03/14 23:50:35 raft 2, log len:2, commitIndex:0,lastAppliedIndex:0
+2020/03/14 23:50:35 raft 0, matchIndex [1 1 1 0 0]
+2020/03/14 23:50:35 raft: 1, term: 2 become follower
+2020/03/14 23:50:35 raft 1, log len:2, commitIndex:0,lastAppliedIndex:0
+2020/03/14 23:50:35 raft 0, matchIndex [1 1 1 0 0]
+2020/03/14 23:50:35 raft: 2, term: 2 become follower
+2020/03/14 23:50:35 raft 2, log len:2, commitIndex:0,lastAppliedIndex:0
+2020/03/14 23:50:35 raft 0, matchIndex [1 1 1 0 0]
+2020/03/14 23:50:35 raft 1 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:35 raft 2 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:35 raft 3 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:35 raft 0 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:35 raft 2 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:35 raft 3 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:35 raft 4 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:35 raft 1 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:35 raft 0 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:35 raft 3 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:35 raft 2 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:35 raft 3 start next ping round
+2020/03/14 23:50:35 raft: 4, term: 1 become follower
+2020/03/14 23:50:35 raft 4, log len:2, commitIndex:1,lastAppliedIndex:1
+2020/03/14 23:50:35 raft 3, matchIndex [1 1 1 1 1]
+2020/03/14 23:50:35 raft 0 start next ping round
+2020/03/14 23:50:35 raft: 1, term: 2 become follower
+2020/03/14 23:50:35 raft 1, log len:2, commitIndex:0,lastAppliedIndex:0
+2020/03/14 23:50:35 raft 0, matchIndex [1 1 1 0 0]
+2020/03/14 23:50:35 raft: 2, term: 2 become follower
+2020/03/14 23:50:35 raft 2, log len:2, commitIndex:0,lastAppliedIndex:0
+2020/03/14 23:50:35 raft 0, matchIndex [1 1 1 0 0]
+2020/03/14 23:50:35 raft 0 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:35 raft 4 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:35 raft 1 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:35 raft 3 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:35 raft 4 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:35 raft 1 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:35 raft 2 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:35 raft 0 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:35 raft 3 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:35 raft 4 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:35 raft 3 start next ping round
+2020/03/14 23:50:35 raft: 4, term: 1 become follower
+2020/03/14 23:50:35 raft 4, log len:2, commitIndex:1,lastAppliedIndex:1
+2020/03/14 23:50:35 raft 3, matchIndex [1 1 1 1 1]
+2020/03/14 23:50:35 raft 0 start next ping round
+2020/03/14 23:50:35 raft: 1, term: 2 become follower
+2020/03/14 23:50:35 raft 1, log len:2, commitIndex:0,lastAppliedIndex:0
+2020/03/14 23:50:35 raft 0, matchIndex [1 1 1 0 0]
+2020/03/14 23:50:35 raft: 2, term: 2 become follower
+2020/03/14 23:50:35 raft 2, log len:2, commitIndex:0,lastAppliedIndex:0
+2020/03/14 23:50:35 raft 0, matchIndex [1 1 1 0 0]
+2020/03/14 23:50:35 raft 1 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:35 raft 2 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:35 raft 0 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:35 raft 1 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:35 raft 3 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:35 raft 4 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:35 raft 2 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:36 raft 0 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:36 raft 2 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:36 raft 3 start next ping round
+2020/03/14 23:50:36 raft: 4, term: 1 become follower
+2020/03/14 23:50:36 raft 4, log len:2, commitIndex:1,lastAppliedIndex:1
+2020/03/14 23:50:36 raft 3, matchIndex [1 1 1 1 1]
+2020/03/14 23:50:36 raft 0 start next ping round
+2020/03/14 23:50:36 raft: 1, term: 2 become follower
+2020/03/14 23:50:36 raft 1, log len:2, commitIndex:0,lastAppliedIndex:0
+2020/03/14 23:50:36 raft 0, matchIndex [1 1 1 0 0]
+2020/03/14 23:50:36 raft: 2, term: 2 become follower
+2020/03/14 23:50:36 raft 2, log len:2, commitIndex:0,lastAppliedIndex:0
+2020/03/14 23:50:36 raft 0, matchIndex [1 1 1 0 0]
+2020/03/14 23:50:36 raft 0 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:36 raft 3 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:36 raft 2 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:36 raft 1 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:36 raft 4 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:36 raft 0 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:36 raft 3 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:36 raft 4 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:36 raft 1 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:36 raft 2 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:36 raft 0 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:36 raft 4 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:36 raft 3 start next ping round
+2020/03/14 23:50:36 raft: 4, term: 1 become follower
+2020/03/14 23:50:36 raft 4, log len:2, commitIndex:1,lastAppliedIndex:1
+2020/03/14 23:50:36 raft 3, matchIndex [1 1 1 1 1]
+2020/03/14 23:50:36 raft 0 start next ping round
+2020/03/14 23:50:36 raft: 1, term: 2 become follower
+2020/03/14 23:50:36 raft 1, log len:2, commitIndex:0,lastAppliedIndex:0
+2020/03/14 23:50:36 raft 0, matchIndex [1 1 1 0 0]
+2020/03/14 23:50:36 raft: 2, term: 2 become follower
+2020/03/14 23:50:36 raft 2, log len:2, commitIndex:0,lastAppliedIndex:0
+2020/03/14 23:50:36 raft 0, matchIndex [1 1 1 0 0]
+2020/03/14 23:50:36 raft 3 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:36 raft 2 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:36 raft 1 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:36 raft 3 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:36 raft 0 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:36 raft 4 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:36 raft 1 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:36 raft 2 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:36 raft 1 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:36 raft 4 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:36 raft 3 start next ping round
+2020/03/14 23:50:36 raft: 4, term: 1 become follower
+2020/03/14 23:50:36 raft 4, log len:2, commitIndex:1,lastAppliedIndex:1
+2020/03/14 23:50:36 raft 3, matchIndex [1 1 1 1 1]
+2020/03/14 23:50:36 raft 3 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:36 raft 0 start next ping round
+2020/03/14 23:50:36 raft: 1, term: 2 become follower
+2020/03/14 23:50:36 raft 1, log len:2, commitIndex:0,lastAppliedIndex:0
+2020/03/14 23:50:36 raft 0, matchIndex [1 1 1 0 0]
+2020/03/14 23:50:36 raft: 2, term: 2 become follower
+2020/03/14 23:50:36 raft 2, log len:2, commitIndex:0,lastAppliedIndex:0
+2020/03/14 23:50:36 raft 0, matchIndex [1 1 1 0 0]
+2020/03/14 23:50:36 raft 0 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:36 raft 2 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:36 raft 1 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:36 raft 0 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:36 raft 2 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:36 raft 4 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:36 raft 3 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:36 raft 0 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:36 raft 3 start next ping round
+2020/03/14 23:50:36 raft: 4, term: 1 become follower
+2020/03/14 23:50:36 raft 4, log len:2, commitIndex:1,lastAppliedIndex:1
+2020/03/14 23:50:36 raft 3, matchIndex [1 1 1 1 1]
+2020/03/14 23:50:36 raft 0 start next ping round
+2020/03/14 23:50:36 raft: 1, term: 2 become follower
+2020/03/14 23:50:36 raft 1, log len:2, commitIndex:0,lastAppliedIndex:0
+2020/03/14 23:50:36 raft 0, matchIndex [1 1 1 0 0]
+2020/03/14 23:50:36 raft: 2, term: 2 become follower
+2020/03/14 23:50:36 raft 2, log len:2, commitIndex:0,lastAppliedIndex:0
+2020/03/14 23:50:36 raft 0, matchIndex [1 1 1 0 0]
+2020/03/14 23:50:36 raft 3 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:36 raft 2 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:36 raft 1 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:36 raft 0 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:36 raft 4 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:36 raft 3 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:36 raft 2 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:36 raft 1 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:36 raft 0 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:36 raft 4 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:36 raft 3 start next ping round
+2020/03/14 23:50:36 raft: 4, term: 1 become follower
+2020/03/14 23:50:36 raft 4, log len:2, commitIndex:1,lastAppliedIndex:1
+2020/03/14 23:50:36 raft 3, matchIndex [1 1 1 1 1]
+2020/03/14 23:50:36 raft 0 start next ping round
+2020/03/14 23:50:36 raft: 1, term: 2 become follower
+2020/03/14 23:50:36 raft 1, log len:2, commitIndex:0,lastAppliedIndex:0
+2020/03/14 23:50:36 raft 0, matchIndex [1 1 1 0 0]
+2020/03/14 23:50:36 raft: 2, term: 2 become follower
+2020/03/14 23:50:36 raft 2, log len:2, commitIndex:0,lastAppliedIndex:0
+2020/03/14 23:50:36 raft 0, matchIndex [1 1 1 0 0]
+2020/03/14 23:50:36 raft 3 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:36 raft 1, currentTerm:2, state:FOLLOWER, get commmand:{Command:Put ClientId:1400336693560494068 Seq:0 Key:1 Value:14}
+2020/03/14 23:50:36 serverid 0, err: ErrWrongLeader
+2020/03/14 23:50:36 raft 2, currentTerm:2, state:FOLLOWER, get commmand:{Command:Put ClientId:1400336693560494068 Seq:0 Key:1 Value:14}
+labgob warning: Decoding into a non-default variable/field Err may not work
+2020/03/14 23:50:36 serverid 1, err: ErrWrongLeader
+2020/03/14 23:50:36 raft 2 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:36 raft 1 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:36 serverid 2, err: ErrWrongLeader
+2020/03/14 23:50:36 raft 0, currentTerm:2, state:LEADER, get commmand:{Command:Put ClientId:1400336693560494068 Seq:0 Key:1 Value:14}
+2020/03/14 23:50:36 raft 0 get command, log len 3, commitIndex 0
+2020/03/14 23:50:36 raft 0 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:36 raft 4 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:36 raft 3 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:36 raft 4 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:36 raft 3 start next ping round
+2020/03/14 23:50:36 raft: 4, term: 1 become follower
+2020/03/14 23:50:36 raft 4, log len:2, commitIndex:1,lastAppliedIndex:1
+2020/03/14 23:50:36 raft 3, matchIndex [1 1 1 1 1]
+2020/03/14 23:50:36 raft 0 start next ping round
+2020/03/14 23:50:36 raft: 1, term: 2 become follower
+2020/03/14 23:50:36 raft 1, log len:3, commitIndex:0,lastAppliedIndex:0
+2020/03/14 23:50:36 raft 0, matchIndex [2 2 1 0 0]
+2020/03/14 23:50:36 raft: 2, term: 2 become follower
+2020/03/14 23:50:36 raft 2, log len:3, commitIndex:0,lastAppliedIndex:0
+2020/03/14 23:50:36 raft 0, matchIndex [2 2 2 0 0]
+2020/03/14 23:50:36 raft 0 advance commit index to 2
+2020/03/14 23:50:36 raft 2 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:36 raft 1 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:36 raft 0 start apply, commitIndex 2, lastApplied 0
+2020/03/14 23:50:36 raft 0, apply cammand: 1
+2020/03/14 23:50:36 raft 0, apply cammand: 2
+2020/03/14 23:50:36 server:0 apply command,index:1, Put, key:1, value:13=========================
+2020/03/14 23:50:36 hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhyyyyyyyyyyyyyyyyyyyyyyy
+2020/03/14 23:50:36 yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+2020/03/14 23:50:36 server:0 apply command,index:2, Put, key:1, value:14=========================
+2020/03/14 23:50:36 hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhyyyyyyyyyyyyyyyyyyyyyyy
+2020/03/14 23:50:36 yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+2020/03/14 23:50:36 {Put 1400336693560494068 0 1 14}
+2020/03/14 23:50:36 Put key 1,value 14 succeed
+2020/03/14 23:50:36 raft 0, currentTerm:2, state:LEADER, get commmand:{Command:Get ClientId:1400336693560494068 Seq:1 Key:1 Value:}
+2020/03/14 23:50:36 raft 0 get command, log len 4, commitIndex 2
+2020/03/14 23:50:36 raft 3 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:36 raft 4 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:36 raft 2 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:36 raft 3 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:36 raft 0 start apply, commitIndex 2, lastApplied 2
+2020/03/14 23:50:36 raft 1 start apply, commitIndex 0, lastApplied 0
+2020/03/14 23:50:36 raft 4 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:36 raft 3 start next ping round
+2020/03/14 23:50:36 raft: 4, term: 1 become follower
+2020/03/14 23:50:36 raft 4, log len:2, commitIndex:1,lastAppliedIndex:1
+2020/03/14 23:50:36 raft 3, matchIndex [1 1 1 1 1]
+2020/03/14 23:50:36 raft 0 start next ping round
+2020/03/14 23:50:36 raft: 1, term: 2 become follower
+2020/03/14 23:50:36 raft 1, log len:4, commitIndex:2,lastAppliedIndex:0
+2020/03/14 23:50:36 raft 0, matchIndex [3 3 2 0 0]
+2020/03/14 23:50:36 raft: 2, term: 2 become follower
+2020/03/14 23:50:36 raft 2, log len:4, commitIndex:2,lastAppliedIndex:0
+2020/03/14 23:50:36 raft 0, matchIndex [3 3 3 0 0]
+2020/03/14 23:50:36 raft 0 advance commit index to 3
+2020/03/14 23:50:36 raft 2 start apply, commitIndex 2, lastApplied 0
+2020/03/14 23:50:36 raft 2, apply cammand: 1
+2020/03/14 23:50:36 raft 2, apply cammand: 2
+2020/03/14 23:50:36 server:2 apply command,index:1, Put, key:1, value:13=========================
+2020/03/14 23:50:36 hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhyyyyyyyyyyyyyyyyyyyyyyy
+2020/03/14 23:50:36 yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+2020/03/14 23:50:36 server:2 apply command,index:2, Put, key:1, value:14=========================
+2020/03/14 23:50:36 hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhyyyyyyyyyyyyyyyyyyyyyyy
+2020/03/14 23:50:36 yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+2020/03/14 23:50:36 raft 3 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:36 raft 4 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:36 raft 1 start apply, commitIndex 2, lastApplied 0
+2020/03/14 23:50:36 raft 1, apply cammand: 1
+2020/03/14 23:50:36 raft 1, apply cammand: 2
+2020/03/14 23:50:36 server:1 apply command,index:1, Put, key:1, value:13=========================
+2020/03/14 23:50:36 hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhyyyyyyyyyyyyyyyyyyyyyyy
+2020/03/14 23:50:36 yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+2020/03/14 23:50:36 server:1 apply command,index:2, Put, key:1, value:14=========================
+2020/03/14 23:50:36 hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhyyyyyyyyyyyyyyyyyyyyyyy
+2020/03/14 23:50:36 yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+2020/03/14 23:50:36 raft 0 start apply, commitIndex 3, lastApplied 2
+2020/03/14 23:50:36 raft 0, apply cammand: 3
+2020/03/14 23:50:36 server:0 apply command,index:3, Get, key:1, value:=========================
+2020/03/14 23:50:36 hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhyyyyyyyyyyyyyyyyyyyyyyy
+2020/03/14 23:50:36 yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+2020/03/14 23:50:36 {Get 1400336693560494068 1 1 }
+  ... Passed --   1.2  5   101    2
+Test: no progress in minority (3A) ...
+2020/03/14 23:50:36 raft 2 start apply, commitIndex 2, lastApplied 2
+2020/03/14 23:50:36 raft 3 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:36 raft 4 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:36 raft 1 start apply, commitIndex 2, lastApplied 2
+2020/03/14 23:50:36 raft 0 start apply, commitIndex 3, lastApplied 3
+2020/03/14 23:50:36 raft 2 start apply, commitIndex 2, lastApplied 2
+2020/03/14 23:50:36 raft 3 start next ping round
+2020/03/14 23:50:36 raft: 4, term: 1 become follower
+2020/03/14 23:50:36 raft 4, log len:2, commitIndex:1,lastAppliedIndex:1
+2020/03/14 23:50:36 raft 3, matchIndex [1 1 1 1 1]
+2020/03/14 23:50:36 raft 0 start next ping round
+2020/03/14 23:50:36 raft: 2, term: 2 become follower
+2020/03/14 23:50:36 raft 2, log len:4, commitIndex:3,lastAppliedIndex:2
+2020/03/14 23:50:36 raft 0, matchIndex [3 3 3 0 0]
+2020/03/14 23:50:36 raft: 1, term: 2 become follower
+2020/03/14 23:50:36 raft 1, log len:4, commitIndex:3,lastAppliedIndex:2
+2020/03/14 23:50:36 raft 0, matchIndex [3 3 3 0 0]
+2020/03/14 23:50:36 raft 0 start apply, commitIndex 3, lastApplied 3
+2020/03/14 23:50:36 raft 3 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:36 raft 3, currentTerm:1, state:LEADER, get commmand:{Command:Get ClientId:3978672451449050666 Seq:0 Key:1 Value:}
+2020/03/14 23:50:36 raft 3 get command, log len 3, commitIndex 1
+2020/03/14 23:50:36 raft 1 start apply, commitIndex 3, lastApplied 2
+2020/03/14 23:50:36 raft 1, apply cammand: 3
+2020/03/14 23:50:36 server:1 apply command,index:3, Get, key:1, value:=========================
+2020/03/14 23:50:36 hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhyyyyyyyyyyyyyyyyyyyyyyy
+2020/03/14 23:50:36 yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+2020/03/14 23:50:36 raft 2 start apply, commitIndex 3, lastApplied 2
+2020/03/14 23:50:36 raft 2, apply cammand: 3
+2020/03/14 23:50:36 server:2 apply command,index:3, Get, key:1, value:=========================
+2020/03/14 23:50:36 hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhyyyyyyyyyyyyyyyyyyyyyyy
+2020/03/14 23:50:36 yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+2020/03/14 23:50:36 raft 4 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:36 raft 0 start apply, commitIndex 3, lastApplied 3
+2020/03/14 23:50:36 raft 3 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:36 raft 2 start apply, commitIndex 3, lastApplied 3
+2020/03/14 23:50:36 raft 0 start apply, commitIndex 3, lastApplied 3
+2020/03/14 23:50:36 raft 3 start next ping round
+2020/03/14 23:50:36 raft: 4, term: 1 become follower
+2020/03/14 23:50:36 raft 4, log len:3, commitIndex:1,lastAppliedIndex:1
+2020/03/14 23:50:36 raft 3, matchIndex [1 1 1 2 2]
+2020/03/14 23:50:36 raft 1 start apply, commitIndex 3, lastApplied 3
+2020/03/14 23:50:36 raft 0 start next ping round
+2020/03/14 23:50:36 raft: 1, term: 2 become follower
+2020/03/14 23:50:36 raft 1, log len:4, commitIndex:3,lastAppliedIndex:3
+2020/03/14 23:50:36 raft 0, matchIndex [3 3 3 0 0]
+2020/03/14 23:50:36 raft: 2, term: 2 become follower
+2020/03/14 23:50:36 raft 2, log len:4, commitIndex:3,lastAppliedIndex:3
+2020/03/14 23:50:36 raft 0, matchIndex [3 3 3 0 0]
+2020/03/14 23:50:36 raft 3 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:36 raft 4 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:36 raft 2 start apply, commitIndex 3, lastApplied 3
+2020/03/14 23:50:36 raft 1 start apply, commitIndex 3, lastApplied 3
+2020/03/14 23:50:36 raft 0 start apply, commitIndex 3, lastApplied 3
+2020/03/14 23:50:36 raft 3 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:36 raft 1 start apply, commitIndex 3, lastApplied 3
+2020/03/14 23:50:36 raft 4 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:36 raft 2 start apply, commitIndex 3, lastApplied 3
+2020/03/14 23:50:36 raft 3 start next ping round
+2020/03/14 23:50:36 raft: 4, term: 1 become follower
+2020/03/14 23:50:36 raft 4, log len:3, commitIndex:1,lastAppliedIndex:1
+2020/03/14 23:50:36 raft 3, matchIndex [1 1 1 2 2]
+2020/03/14 23:50:36 raft 0 start next ping round
+2020/03/14 23:50:36 raft: 1, term: 2 become follower
+2020/03/14 23:50:36 raft 1, log len:4, commitIndex:3,lastAppliedIndex:3
+2020/03/14 23:50:36 raft 0, matchIndex [3 3 3 0 0]
+2020/03/14 23:50:36 raft: 2, term: 2 become follower
+2020/03/14 23:50:36 raft 2, log len:4, commitIndex:3,lastAppliedIndex:3
+2020/03/14 23:50:36 raft 0, matchIndex [3 3 3 0 0]
+2020/03/14 23:50:36 raft 3 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:36 raft 0 start apply, commitIndex 3, lastApplied 3
+2020/03/14 23:50:36 raft 2 start apply, commitIndex 3, lastApplied 3
+2020/03/14 23:50:36 raft 3 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:36 raft 4 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:36 raft 1 start apply, commitIndex 3, lastApplied 3
+2020/03/14 23:50:37 raft 0 start apply, commitIndex 3, lastApplied 3
+2020/03/14 23:50:37 raft 4 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:37 raft 3 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:37 raft 3 start next ping round
+2020/03/14 23:50:37 raft: 4, term: 1 become follower
+2020/03/14 23:50:37 raft 4, log len:3, commitIndex:1,lastAppliedIndex:1
+2020/03/14 23:50:37 raft 3, matchIndex [1 1 1 2 2]
+2020/03/14 23:50:37 raft 2 start apply, commitIndex 3, lastApplied 3
+2020/03/14 23:50:37 raft 1 start apply, commitIndex 3, lastApplied 3
+2020/03/14 23:50:37 raft 0 start next ping round
+2020/03/14 23:50:37 raft: 1, term: 2 become follower
+2020/03/14 23:50:37 raft 1, log len:4, commitIndex:3,lastAppliedIndex:3
+2020/03/14 23:50:37 raft 0, matchIndex [3 3 3 0 0]
+2020/03/14 23:50:37 raft: 2, term: 2 become follower
+2020/03/14 23:50:37 raft 2, log len:4, commitIndex:3,lastAppliedIndex:3
+2020/03/14 23:50:37 raft 0, matchIndex [3 3 3 0 0]
+2020/03/14 23:50:37 raft 4 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:37 raft 1 start apply, commitIndex 3, lastApplied 3
+2020/03/14 23:50:37 raft 0 start apply, commitIndex 3, lastApplied 3
+2020/03/14 23:50:37 raft 2 start apply, commitIndex 3, lastApplied 3
+2020/03/14 23:50:37 raft 3 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:37 raft 1 start apply, commitIndex 3, lastApplied 3
+2020/03/14 23:50:37 raft 4 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:37 raft 0 start apply, commitIndex 3, lastApplied 3
+2020/03/14 23:50:37 raft 3 start next ping round
+2020/03/14 23:50:37 raft: 4, term: 1 become follower
+2020/03/14 23:50:37 raft 4, log len:3, commitIndex:1,lastAppliedIndex:1
+2020/03/14 23:50:37 raft 3, matchIndex [1 1 1 2 2]
+2020/03/14 23:50:37 raft 0 start next ping round
+2020/03/14 23:50:37 raft: 1, term: 2 become follower
+2020/03/14 23:50:37 raft 1, log len:4, commitIndex:3,lastAppliedIndex:3
+2020/03/14 23:50:37 raft 0, matchIndex [3 3 3 0 0]
+2020/03/14 23:50:37 raft: 2, term: 2 become follower
+2020/03/14 23:50:37 raft 2, log len:4, commitIndex:3,lastAppliedIndex:3
+2020/03/14 23:50:37 raft 0, matchIndex [3 3 3 0 0]
+2020/03/14 23:50:37 raft 3 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:37 raft 2 start apply, commitIndex 3, lastApplied 3
+2020/03/14 23:50:37 raft 0 start apply, commitIndex 3, lastApplied 3
+2020/03/14 23:50:37 raft 1 start apply, commitIndex 3, lastApplied 3
+2020/03/14 23:50:37 raft 4 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:37 raft 3 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:37 raft 1 start apply, commitIndex 3, lastApplied 3
+2020/03/14 23:50:37 raft 2 start apply, commitIndex 3, lastApplied 3
+2020/03/14 23:50:37 raft 0 start apply, commitIndex 3, lastApplied 3
+2020/03/14 23:50:37 raft 3 start next ping round
+2020/03/14 23:50:37 raft: 4, term: 1 become follower
+2020/03/14 23:50:37 raft 4, log len:3, commitIndex:1,lastAppliedIndex:1
+2020/03/14 23:50:37 raft 3, matchIndex [1 1 1 2 2]
+2020/03/14 23:50:37 raft 0 start next ping round
+2020/03/14 23:50:37 raft: 1, term: 2 become follower
+2020/03/14 23:50:37 raft 1, log len:4, commitIndex:3,lastAppliedIndex:3
+2020/03/14 23:50:37 raft 0, matchIndex [3 3 3 0 0]
+2020/03/14 23:50:37 raft: 2, term: 2 become follower
+2020/03/14 23:50:37 raft 2, log len:4, commitIndex:3,lastAppliedIndex:3
+2020/03/14 23:50:37 raft 0, matchIndex [3 3 3 0 0]
+2020/03/14 23:50:37 raft 1 start apply, commitIndex 3, lastApplied 3
+2020/03/14 23:50:37 raft 4 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:37 raft 3 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:37 raft 2 start apply, commitIndex 3, lastApplied 3
+2020/03/14 23:50:37 raft 0 start apply, commitIndex 3, lastApplied 3
+2020/03/14 23:50:37 raft 1 start apply, commitIndex 3, lastApplied 3
+2020/03/14 23:50:37 raft 0 start apply, commitIndex 3, lastApplied 3
+2020/03/14 23:50:37 raft 4 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:37 raft 2 start apply, commitIndex 3, lastApplied 3
+2020/03/14 23:50:37 raft 1 start apply, commitIndex 3, lastApplied 3
+2020/03/14 23:50:37 raft 3 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:37 raft 3 start next ping round
+2020/03/14 23:50:37 raft: 4, term: 1 become follower
+2020/03/14 23:50:37 raft 4, log len:3, commitIndex:1,lastAppliedIndex:1
+2020/03/14 23:50:37 raft 3, matchIndex [1 1 1 2 2]
+2020/03/14 23:50:37 raft 0 start next ping round
+2020/03/14 23:50:37 raft: 1, term: 2 become follower
+2020/03/14 23:50:37 raft 1, log len:4, commitIndex:3,lastAppliedIndex:3
+2020/03/14 23:50:37 raft 0, matchIndex [3 3 3 0 0]
+2020/03/14 23:50:37 raft: 2, term: 2 become follower
+2020/03/14 23:50:37 raft 2, log len:4, commitIndex:3,lastAppliedIndex:3
+2020/03/14 23:50:37 raft 0, matchIndex [3 3 3 0 0]
+2020/03/14 23:50:37 raft 0 start apply, commitIndex 3, lastApplied 3
+2020/03/14 23:50:37 raft 1 start apply, commitIndex 3, lastApplied 3
+2020/03/14 23:50:37 raft 2 start apply, commitIndex 3, lastApplied 3
+2020/03/14 23:50:37 raft 4 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:37 raft 1 start apply, commitIndex 3, lastApplied 3
+2020/03/14 23:50:37 raft 3 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:37 raft 0 start apply, commitIndex 3, lastApplied 3
+2020/03/14 23:50:37 raft 2 start apply, commitIndex 3, lastApplied 3
+2020/03/14 23:50:37 raft 1 start apply, commitIndex 3, lastApplied 3
+2020/03/14 23:50:37 raft 4 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:37 raft 3 start next ping round
+2020/03/14 23:50:37 raft: 4, term: 1 become follower
+2020/03/14 23:50:37 raft 4, log len:3, commitIndex:1,lastAppliedIndex:1
+2020/03/14 23:50:37 raft 3, matchIndex [1 1 1 2 2]
+2020/03/14 23:50:37 raft 0 start next ping round
+2020/03/14 23:50:37 raft: 1, term: 2 become follower
+2020/03/14 23:50:37 raft 1, log len:4, commitIndex:3,lastAppliedIndex:3
+2020/03/14 23:50:37 raft 0, matchIndex [3 3 3 0 0]
+2020/03/14 23:50:37 raft: 2, term: 2 become follower
+2020/03/14 23:50:37 raft 2, log len:4, commitIndex:3,lastAppliedIndex:3
+2020/03/14 23:50:37 raft 0, matchIndex [3 3 3 0 0]
+2020/03/14 23:50:37 raft 0 start apply, commitIndex 3, lastApplied 3
+2020/03/14 23:50:37 raft 2 start apply, commitIndex 3, lastApplied 3
+2020/03/14 23:50:37 raft 3 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:37 raft 4 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:37 raft 1 start apply, commitIndex 3, lastApplied 3
+2020/03/14 23:50:37 raft 3 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:37 raft 2 start apply, commitIndex 3, lastApplied 3
+2020/03/14 23:50:37 raft 0 start apply, commitIndex 3, lastApplied 3
+2020/03/14 23:50:37 raft 1 start apply, commitIndex 3, lastApplied 3
+2020/03/14 23:50:37 raft 4 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:37 raft 3 start next ping round
+2020/03/14 23:50:37 raft: 4, term: 1 become follower
+2020/03/14 23:50:37 raft 4, log len:3, commitIndex:1,lastAppliedIndex:1
+2020/03/14 23:50:37 raft 3, matchIndex [1 1 1 2 2]
+2020/03/14 23:50:37 raft 0 start next ping round
+2020/03/14 23:50:37 raft: 1, term: 2 become follower
+2020/03/14 23:50:37 raft 1, log len:4, commitIndex:3,lastAppliedIndex:3
+2020/03/14 23:50:37 raft 0, matchIndex [3 3 3 0 0]
+2020/03/14 23:50:37 raft: 2, term: 2 become follower
+2020/03/14 23:50:37 raft 2, log len:4, commitIndex:3,lastAppliedIndex:3
+2020/03/14 23:50:37 raft 0, matchIndex [3 3 3 0 0]
+2020/03/14 23:50:37 raft 0 start apply, commitIndex 3, lastApplied 3
+2020/03/14 23:50:37 raft 3 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:37 raft 4 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:37 raft 1 start apply, commitIndex 3, lastApplied 3
+2020/03/14 23:50:37 raft 2 start apply, commitIndex 3, lastApplied 3
+2020/03/14 23:50:37 raft 3 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:37 raft 4 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:37 raft 0 start apply, commitIndex 3, lastApplied 3
+2020/03/14 23:50:37 raft 1 start apply, commitIndex 3, lastApplied 3
+2020/03/14 23:50:37 raft 3 start next ping round
+2020/03/14 23:50:37 raft: 4, term: 1 become follower
+2020/03/14 23:50:37 raft 4, log len:3, commitIndex:1,lastAppliedIndex:1
+2020/03/14 23:50:37 raft 3, matchIndex [1 1 1 2 2]
+2020/03/14 23:50:37 raft 0 start next ping round
+2020/03/14 23:50:37 raft: 1, term: 2 become follower
+2020/03/14 23:50:37 raft 1, log len:4, commitIndex:3,lastAppliedIndex:3
+2020/03/14 23:50:37 raft 0, matchIndex [3 3 3 0 0]
+2020/03/14 23:50:37 raft: 2, term: 2 become follower
+2020/03/14 23:50:37 raft 2, log len:4, commitIndex:3,lastAppliedIndex:3
+2020/03/14 23:50:37 raft 0, matchIndex [3 3 3 0 0]
+2020/03/14 23:50:37 raft 2 start apply, commitIndex 3, lastApplied 3
+2020/03/14 23:50:37 raft 0 start apply, commitIndex 3, lastApplied 3
+2020/03/14 23:50:37 raft 3 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:37 raft 1 start apply, commitIndex 3, lastApplied 3
+2020/03/14 23:50:37 raft 4 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:37 raft 0, currentTerm:2, state:LEADER, get commmand:{Command:Get ClientId:1400336693560494068 Seq:2 Key:1 Value:}
+2020/03/14 23:50:37 raft 0 get command, log len 5, commitIndex 3
+2020/03/14 23:50:37 raft 3, currentTerm:1, state:LEADER, get commmand:{Command:Put ClientId:2921856328310369328 Seq:0 Key:1 Value:15}
+2020/03/14 23:50:37 raft 3 get command, log len 4, commitIndex 1
+2020/03/14 23:50:37 raft 0 start apply, commitIndex 3, lastApplied 3
+2020/03/14 23:50:37 raft 1 start apply, commitIndex 3, lastApplied 3
+2020/03/14 23:50:37 raft 3 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:37 raft 2 start apply, commitIndex 3, lastApplied 3
+2020/03/14 23:50:37 raft 0 start apply, commitIndex 3, lastApplied 3
+2020/03/14 23:50:37 raft 1 start apply, commitIndex 3, lastApplied 3
+2020/03/14 23:50:37 raft 3 start next ping round
+2020/03/14 23:50:37 raft: 4, term: 1 become follower
+2020/03/14 23:50:37 raft 4, log len:4, commitIndex:1,lastAppliedIndex:1
+2020/03/14 23:50:37 raft 3, matchIndex [1 1 1 3 3]
+2020/03/14 23:50:37 raft 0 start next ping round
+2020/03/14 23:50:37 raft: 1, term: 2 become follower
+2020/03/14 23:50:37 raft 1, log len:5, commitIndex:3,lastAppliedIndex:3
+2020/03/14 23:50:37 raft 0, matchIndex [4 4 3 0 0]
+2020/03/14 23:50:37 raft: 2, term: 2 become follower
+2020/03/14 23:50:37 raft 2, log len:5, commitIndex:3,lastAppliedIndex:3
+2020/03/14 23:50:37 raft 0, matchIndex [4 4 4 0 0]
+2020/03/14 23:50:37 raft 0 advance commit index to 4
+2020/03/14 23:50:37 raft 4 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:37 raft 3 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:37 raft 0 start apply, commitIndex 4, lastApplied 3
+2020/03/14 23:50:37 raft 0, apply cammand: 4
+2020/03/14 23:50:37 server:0 apply command,index:4, Get, key:1, value:=========================
+2020/03/14 23:50:37 hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhyyyyyyyyyyyyyyyyyyyyyyy
+2020/03/14 23:50:37 yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+2020/03/14 23:50:37 {Get 1400336693560494068 2 1 }
+2020/03/14 23:50:37 raft 2 start apply, commitIndex 3, lastApplied 3
+2020/03/14 23:50:37 raft 1 start apply, commitIndex 3, lastApplied 3
+2020/03/14 23:50:37 raft 3 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:37 raft 0 start apply, commitIndex 4, lastApplied 4
+2020/03/14 23:50:37 raft 4 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:37 raft 1 start apply, commitIndex 3, lastApplied 3
+2020/03/14 23:50:37 raft 4, currentTerm:1, state:FOLLOWER, get commmand:{Command:Get ClientId:3978672451449050666 Seq:0 Key:1 Value:}
+2020/03/14 23:50:37 raft 3 start next ping round
+2020/03/14 23:50:37 raft: 4, term: 1 become follower
+2020/03/14 23:50:37 raft 4, log len:4, commitIndex:1,lastAppliedIndex:1
+2020/03/14 23:50:37 raft 3, matchIndex [1 1 1 3 3]
+2020/03/14 23:50:37 raft 0 start next ping round
+2020/03/14 23:50:37 raft: 1, term: 2 become follower
+2020/03/14 23:50:37 raft 1, log len:5, commitIndex:4,lastAppliedIndex:3
+2020/03/14 23:50:37 raft 0, matchIndex [4 4 4 0 0]
+2020/03/14 23:50:37 raft: 2, term: 2 become follower
+2020/03/14 23:50:37 raft 2, log len:5, commitIndex:4,lastAppliedIndex:3
+2020/03/14 23:50:37 raft 0, matchIndex [4 4 4 0 0]
+2020/03/14 23:50:37 raft 2 start apply, commitIndex 4, lastApplied 3
+2020/03/14 23:50:37 raft 2, apply cammand: 4
+2020/03/14 23:50:37 server:2 apply command,index:4, Get, key:1, value:=========================
+2020/03/14 23:50:37 hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhyyyyyyyyyyyyyyyyyyyyyyy
+2020/03/14 23:50:37 yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+2020/03/14 23:50:37 raft 1 start apply, commitIndex 4, lastApplied 3
+2020/03/14 23:50:37 raft 1, apply cammand: 4
+2020/03/14 23:50:37 server:1 apply command,index:4, Get, key:1, value:=========================
+2020/03/14 23:50:37 hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhyyyyyyyyyyyyyyyyyyyyyyy
+2020/03/14 23:50:37 yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+2020/03/14 23:50:37 raft 0 start apply, commitIndex 4, lastApplied 4
+2020/03/14 23:50:37 raft 3 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:37 raft 4 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:37 raft 0 start apply, commitIndex 4, lastApplied 4
+2020/03/14 23:50:37 raft 1 start apply, commitIndex 4, lastApplied 4
+2020/03/14 23:50:37 raft 2 start apply, commitIndex 4, lastApplied 4
+2020/03/14 23:50:37 raft 3, currentTerm:1, state:LEADER, get commmand:{Command:Get ClientId:3978672451449050666 Seq:0 Key:1 Value:}
+2020/03/14 23:50:37 raft 3 get command, log len 5, commitIndex 1
+2020/03/14 23:50:37 raft 1 start apply, commitIndex 4, lastApplied 4
+2020/03/14 23:50:37 raft 4 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:37 raft 3 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:37 raft 3 start next ping round
+2020/03/14 23:50:37 raft: 4, term: 1 become follower
+2020/03/14 23:50:37 raft 4, log len:5, commitIndex:1,lastAppliedIndex:1
+2020/03/14 23:50:37 raft 3, matchIndex [1 1 1 4 4]
+2020/03/14 23:50:37 raft 0 start next ping round
+2020/03/14 23:50:37 raft: 1, term: 2 become follower
+2020/03/14 23:50:37 raft 1, log len:5, commitIndex:4,lastAppliedIndex:4
+2020/03/14 23:50:37 raft 0, matchIndex [4 4 4 0 0]
+2020/03/14 23:50:37 raft: 2, term: 2 become follower
+2020/03/14 23:50:37 raft 2, log len:5, commitIndex:4,lastAppliedIndex:4
+2020/03/14 23:50:37 raft 0, matchIndex [4 4 4 0 0]
+2020/03/14 23:50:37 raft 0 start apply, commitIndex 4, lastApplied 4
+2020/03/14 23:50:37 raft 1 start apply, commitIndex 4, lastApplied 4
+2020/03/14 23:50:37 raft 2 start apply, commitIndex 4, lastApplied 4
+2020/03/14 23:50:37 raft 4 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:37 raft 0 start apply, commitIndex 4, lastApplied 4
+2020/03/14 23:50:37 raft 1 start apply, commitIndex 4, lastApplied 4
+2020/03/14 23:50:37 raft 2 start apply, commitIndex 4, lastApplied 4
+2020/03/14 23:50:37 raft 3 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:37 raft 4 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:38 raft 2 start apply, commitIndex 4, lastApplied 4
+2020/03/14 23:50:38 raft 0 start apply, commitIndex 4, lastApplied 4
+2020/03/14 23:50:38 raft 1 start apply, commitIndex 4, lastApplied 4
+2020/03/14 23:50:38 raft 3 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:38 raft 3 start next ping round
+2020/03/14 23:50:38 raft: 4, term: 1 become follower
+2020/03/14 23:50:38 raft 4, log len:5, commitIndex:1,lastAppliedIndex:1
+2020/03/14 23:50:38 raft 3, matchIndex [1 1 1 4 4]
+2020/03/14 23:50:38 raft 0 start next ping round
+2020/03/14 23:50:38 raft: 1, term: 2 become follower
+2020/03/14 23:50:38 raft 1, log len:5, commitIndex:4,lastAppliedIndex:4
+2020/03/14 23:50:38 raft 0, matchIndex [4 4 4 0 0]
+2020/03/14 23:50:38 raft: 2, term: 2 become follower
+2020/03/14 23:50:38 raft 2, log len:5, commitIndex:4,lastAppliedIndex:4
+2020/03/14 23:50:38 raft 0, matchIndex [4 4 4 0 0]
+2020/03/14 23:50:38 raft 4 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:38 raft 4 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:38 raft 2 start apply, commitIndex 4, lastApplied 4
+2020/03/14 23:50:38 raft 3 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:38 raft 0 start apply, commitIndex 4, lastApplied 4
+2020/03/14 23:50:38 raft 1 start apply, commitIndex 4, lastApplied 4
+2020/03/14 23:50:38 raft 3 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:38 raft 4 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:38 raft 0 start apply, commitIndex 4, lastApplied 4
+2020/03/14 23:50:38 raft 3 start next ping round
+2020/03/14 23:50:38 raft: 4, term: 1 become follower
+2020/03/14 23:50:38 raft 4, log len:5, commitIndex:1,lastAppliedIndex:1
+2020/03/14 23:50:38 raft 3, matchIndex [1 1 1 4 4]
+2020/03/14 23:50:38 raft 0 start next ping round
+2020/03/14 23:50:38 raft: 1, term: 2 become follower
+2020/03/14 23:50:38 raft 1, log len:5, commitIndex:4,lastAppliedIndex:4
+2020/03/14 23:50:38 raft 0, matchIndex [4 4 4 0 0]
+2020/03/14 23:50:38 raft: 2, term: 2 become follower
+2020/03/14 23:50:38 raft 2, log len:5, commitIndex:4,lastAppliedIndex:4
+2020/03/14 23:50:38 raft 0, matchIndex [4 4 4 0 0]
+2020/03/14 23:50:38 raft 1 start apply, commitIndex 4, lastApplied 4
+2020/03/14 23:50:38 raft 2 start apply, commitIndex 4, lastApplied 4
+2020/03/14 23:50:38 raft 3 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:38 raft 4 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:38 raft 1 start apply, commitIndex 4, lastApplied 4
+2020/03/14 23:50:38 raft 0 start apply, commitIndex 4, lastApplied 4
+2020/03/14 23:50:38 raft 2 start apply, commitIndex 4, lastApplied 4
+2020/03/14 23:50:38 raft 3 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:38 raft 4 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:38 raft 1 start apply, commitIndex 4, lastApplied 4
+2020/03/14 23:50:38 raft 0 start apply, commitIndex 4, lastApplied 4
+2020/03/14 23:50:38 raft 3 start next ping round
+2020/03/14 23:50:38 raft: 4, term: 1 become follower
+2020/03/14 23:50:38 raft 4, log len:5, commitIndex:1,lastAppliedIndex:1
+2020/03/14 23:50:38 raft 3, matchIndex [1 1 1 4 4]
+2020/03/14 23:50:38 raft 0 start next ping round
+2020/03/14 23:50:38 raft: 1, term: 2 become follower
+2020/03/14 23:50:38 raft 1, log len:5, commitIndex:4,lastAppliedIndex:4
+2020/03/14 23:50:38 raft 0, matchIndex [4 4 4 0 0]
+2020/03/14 23:50:38 raft: 2, term: 2 become follower
+2020/03/14 23:50:38 raft 2, log len:5, commitIndex:4,lastAppliedIndex:4
+2020/03/14 23:50:38 raft 0, matchIndex [4 4 4 0 0]
+2020/03/14 23:50:38 raft 2 start apply, commitIndex 4, lastApplied 4
+2020/03/14 23:50:38 raft 4 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:38 raft 0 start apply, commitIndex 4, lastApplied 4
+2020/03/14 23:50:38 raft 3 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:38 raft 1 start apply, commitIndex 4, lastApplied 4
+2020/03/14 23:50:38 raft 3 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:38 raft 2 start apply, commitIndex 4, lastApplied 4
+2020/03/14 23:50:38 raft 4 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:38 raft 0 start apply, commitIndex 4, lastApplied 4
+2020/03/14 23:50:38 raft 3 start next ping round
+2020/03/14 23:50:38 raft: 4, term: 1 become follower
+2020/03/14 23:50:38 raft 4, log len:5, commitIndex:1,lastAppliedIndex:1
+2020/03/14 23:50:38 raft 3, matchIndex [1 1 1 4 4]
+2020/03/14 23:50:38 raft 0 start next ping round
+2020/03/14 23:50:38 raft: 1, term: 2 become follower
+2020/03/14 23:50:38 raft 1, log len:5, commitIndex:4,lastAppliedIndex:4
+2020/03/14 23:50:38 raft 0, matchIndex [4 4 4 0 0]
+2020/03/14 23:50:38 raft: 2, term: 2 become follower
+2020/03/14 23:50:38 raft 2, log len:5, commitIndex:4,lastAppliedIndex:4
+2020/03/14 23:50:38 raft 0, matchIndex [4 4 4 0 0]
+2020/03/14 23:50:38 raft 3 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:38 raft 1 start apply, commitIndex 4, lastApplied 4
+2020/03/14 23:50:38 raft 2 start apply, commitIndex 4, lastApplied 4
+2020/03/14 23:50:38 raft 4 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:38 raft 0 start apply, commitIndex 4, lastApplied 4
+2020/03/14 23:50:38 raft 3 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:38 raft 1 start apply, commitIndex 4, lastApplied 4
+2020/03/14 23:50:38 raft 2 start apply, commitIndex 4, lastApplied 4
+2020/03/14 23:50:38 raft 3 start next ping round
+2020/03/14 23:50:38 raft: 4, term: 1 become follower
+2020/03/14 23:50:38 raft 4, log len:5, commitIndex:1,lastAppliedIndex:1
+2020/03/14 23:50:38 raft 3, matchIndex [1 1 1 4 4]
+2020/03/14 23:50:38 raft 4 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:38 raft 0 start next ping round
+2020/03/14 23:50:38 raft: 1, term: 2 become follower
+2020/03/14 23:50:38 raft 1, log len:5, commitIndex:4,lastAppliedIndex:4
+2020/03/14 23:50:38 raft 0, matchIndex [4 4 4 0 0]
+2020/03/14 23:50:38 raft: 2, term: 2 become follower
+2020/03/14 23:50:38 raft 2, log len:5, commitIndex:4,lastAppliedIndex:4
+2020/03/14 23:50:38 raft 0, matchIndex [4 4 4 0 0]
+2020/03/14 23:50:38 raft 0 start apply, commitIndex 4, lastApplied 4
+2020/03/14 23:50:38 raft 2 start apply, commitIndex 4, lastApplied 4
+2020/03/14 23:50:38 raft 1 start apply, commitIndex 4, lastApplied 4
+2020/03/14 23:50:38 raft 3 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:38 raft 0 start apply, commitIndex 4, lastApplied 4
+2020/03/14 23:50:38 raft 1 start apply, commitIndex 4, lastApplied 4
+2020/03/14 23:50:38 raft 2 start apply, commitIndex 4, lastApplied 4
+2020/03/14 23:50:38 raft 4 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:38 raft 0 start apply, commitIndex 4, lastApplied 4
+2020/03/14 23:50:38 raft 3 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:38 raft 1 start apply, commitIndex 4, lastApplied 4
+2020/03/14 23:50:38 raft 3 start next ping round
+2020/03/14 23:50:38 raft: 4, term: 1 become follower
+2020/03/14 23:50:38 raft 4, log len:5, commitIndex:1,lastAppliedIndex:1
+2020/03/14 23:50:38 raft 3, matchIndex [1 1 1 4 4]
+2020/03/14 23:50:38 raft 4 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:38 raft 0 start next ping round
+2020/03/14 23:50:38 raft: 1, term: 2 become follower
+2020/03/14 23:50:38 raft 1, log len:5, commitIndex:4,lastAppliedIndex:4
+2020/03/14 23:50:38 raft 0, matchIndex [4 4 4 0 0]
+2020/03/14 23:50:38 raft: 2, term: 2 become follower
+2020/03/14 23:50:38 raft 2, log len:5, commitIndex:4,lastAppliedIndex:4
+2020/03/14 23:50:38 raft 0, matchIndex [4 4 4 0 0]
+2020/03/14 23:50:38 raft 2 start apply, commitIndex 4, lastApplied 4
+2020/03/14 23:50:38 raft 0 start apply, commitIndex 4, lastApplied 4
+2020/03/14 23:50:38 raft 3 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:38 raft 4 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:38 raft 1 start apply, commitIndex 4, lastApplied 4
+2020/03/14 23:50:38 raft 4 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:38 raft 0 start apply, commitIndex 4, lastApplied 4
+2020/03/14 23:50:38 raft 3 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:38 raft 3 start next ping round
+2020/03/14 23:50:38 raft: 4, term: 1 become follower
+2020/03/14 23:50:38 raft 4, log len:5, commitIndex:1,lastAppliedIndex:1
+2020/03/14 23:50:38 raft 3, matchIndex [1 1 1 4 4]
+2020/03/14 23:50:38 raft 0 start next ping round
+2020/03/14 23:50:38 raft: 1, term: 2 become follower
+2020/03/14 23:50:38 raft 1, log len:5, commitIndex:4,lastAppliedIndex:4
+2020/03/14 23:50:38 raft 0, matchIndex [4 4 4 0 0]
+2020/03/14 23:50:38 raft: 2, term: 2 become follower
+2020/03/14 23:50:38 raft 2, log len:5, commitIndex:4,lastAppliedIndex:4
+2020/03/14 23:50:38 raft 0, matchIndex [4 4 4 0 0]
+2020/03/14 23:50:38 raft 2 start apply, commitIndex 4, lastApplied 4
+2020/03/14 23:50:38 raft 1 start apply, commitIndex 4, lastApplied 4
+2020/03/14 23:50:38 serverid 0, err: ErrWrongLeader
+2020/03/14 23:50:38 raft 0 start apply, commitIndex 4, lastApplied 4
+2020/03/14 23:50:38 raft 2 start apply, commitIndex 4, lastApplied 4
+2020/03/14 23:50:38 raft 3 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:38 raft 4 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:38 serverid 1, err: ErrWrongLeader
+2020/03/14 23:50:38 raft 4, currentTerm:1, state:FOLLOWER, get commmand:{Command:Put ClientId:2921856328310369328 Seq:0 Key:1 Value:15}
+2020/03/14 23:50:38 serverid 2, err: ErrWrongLeader
+2020/03/14 23:50:38 raft 0 start apply, commitIndex 4, lastApplied 4
+2020/03/14 23:50:38 raft 1 start apply, commitIndex 4, lastApplied 4
+2020/03/14 23:50:38 raft 3 start next ping round
+2020/03/14 23:50:38 raft: 4, term: 1 become follower
+2020/03/14 23:50:38 raft 4, log len:5, commitIndex:1,lastAppliedIndex:1
+2020/03/14 23:50:38 raft 3, matchIndex [1 1 1 4 4]
+2020/03/14 23:50:38 raft 1 start apply, commitIndex 4, lastApplied 4
+2020/03/14 23:50:38 raft 0 start next ping round
+2020/03/14 23:50:38 raft: 1, term: 2 become follower
+2020/03/14 23:50:38 raft 1, log len:5, commitIndex:4,lastAppliedIndex:4
+2020/03/14 23:50:38 raft 0, matchIndex [4 4 4 0 0]
+2020/03/14 23:50:38 raft: 2, term: 2 become follower
+2020/03/14 23:50:38 raft 2, log len:5, commitIndex:4,lastAppliedIndex:4
+2020/03/14 23:50:38 raft 0, matchIndex [4 4 4 0 0]
+2020/03/14 23:50:38 raft 3 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:38 raft 0 start apply, commitIndex 4, lastApplied 4
+2020/03/14 23:50:38 raft 2 start apply, commitIndex 4, lastApplied 4
+2020/03/14 23:50:38 raft 4 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:38 raft 0, currentTerm:2, state:LEADER, get commmand:{Command:Put ClientId:1400336693560494068 Seq:3 Key:1 Value:16}
+2020/03/14 23:50:38 raft 0 get command, log len 6, commitIndex 4
+2020/03/14 23:50:38 serverid 3, err: ErrWrongLeader
+2020/03/14 23:50:38 raft 0 start apply, commitIndex 4, lastApplied 4
+2020/03/14 23:50:38 raft 2 start apply, commitIndex 4, lastApplied 4
+2020/03/14 23:50:38 raft 3 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:38 raft 1 start apply, commitIndex 4, lastApplied 4
+2020/03/14 23:50:38 serverid 4, err: ErrWrongLeader
+2020/03/14 23:50:38 raft 3, currentTerm:1, state:LEADER, get commmand:{Command:Put ClientId:2921856328310369328 Seq:0 Key:1 Value:15}
+2020/03/14 23:50:38 raft 3 get command, log len 6, commitIndex 1
+2020/03/14 23:50:38 raft 4 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:38 raft 3 start next ping round
+2020/03/14 23:50:38 raft: 4, term: 1 become follower
+2020/03/14 23:50:38 raft 4, log len:6, commitIndex:1,lastAppliedIndex:1
+2020/03/14 23:50:38 raft 3, matchIndex [1 1 1 5 5]
+2020/03/14 23:50:38 raft 3 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:38 raft 0 start next ping round
+2020/03/14 23:50:38 raft: 1, term: 2 become follower
+2020/03/14 23:50:38 raft 1, log len:6, commitIndex:4,lastAppliedIndex:4
+2020/03/14 23:50:38 raft 0, matchIndex [5 5 4 0 0]
+2020/03/14 23:50:38 raft: 2, term: 2 become follower
+2020/03/14 23:50:38 raft 2, log len:6, commitIndex:4,lastAppliedIndex:4
+2020/03/14 23:50:38 raft 0, matchIndex [5 5 5 0 0]
+2020/03/14 23:50:38 raft 0 advance commit index to 5
+2020/03/14 23:50:38 raft 2 start apply, commitIndex 4, lastApplied 4
+2020/03/14 23:50:38 raft 0 start apply, commitIndex 5, lastApplied 4
+2020/03/14 23:50:38 raft 0, apply cammand: 5
+2020/03/14 23:50:38 server:0 apply command,index:5, Put, key:1, value:16=========================
+2020/03/14 23:50:38 hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhyyyyyyyyyyyyyyyyyyyyyyy
+2020/03/14 23:50:38 yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+2020/03/14 23:50:38 {Put 1400336693560494068 3 1 16}
+2020/03/14 23:50:38 Put key 1,value 16 succeed
+2020/03/14 23:50:38 raft 0, currentTerm:2, state:LEADER, get commmand:{Command:Get ClientId:1400336693560494068 Seq:4 Key:1 Value:}
+2020/03/14 23:50:38 raft 0 get command, log len 7, commitIndex 5
+2020/03/14 23:50:38 raft 1 start apply, commitIndex 4, lastApplied 4
+2020/03/14 23:50:38 raft 0 start apply, commitIndex 5, lastApplied 5
+2020/03/14 23:50:38 raft 4 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:38 raft 2 start apply, commitIndex 4, lastApplied 4
+2020/03/14 23:50:38 raft 3 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:38 raft 1 start apply, commitIndex 4, lastApplied 4
+2020/03/14 23:50:38 raft 0 start apply, commitIndex 5, lastApplied 5
+2020/03/14 23:50:38 raft 4 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:38 raft 3 start next ping round
+2020/03/14 23:50:38 raft: 4, term: 1 become follower
+2020/03/14 23:50:38 raft 4, log len:6, commitIndex:1,lastAppliedIndex:1
+2020/03/14 23:50:38 raft 3, matchIndex [1 1 1 5 5]
+2020/03/14 23:50:38 raft 0 start next ping round
+2020/03/14 23:50:38 raft: 1, term: 2 become follower
+2020/03/14 23:50:38 raft 1, log len:7, commitIndex:5,lastAppliedIndex:4
+2020/03/14 23:50:38 raft 0, matchIndex [6 6 5 0 0]
+2020/03/14 23:50:38 raft: 2, term: 2 become follower
+2020/03/14 23:50:38 raft 2, log len:7, commitIndex:5,lastAppliedIndex:4
+2020/03/14 23:50:38 raft 0, matchIndex [6 6 6 0 0]
+2020/03/14 23:50:38 raft 0 advance commit index to 6
+2020/03/14 23:50:38 raft 2 start apply, commitIndex 5, lastApplied 4
+2020/03/14 23:50:38 raft 2, apply cammand: 5
+2020/03/14 23:50:38 server:2 apply command,index:5, Put, key:1, value:16=========================
+2020/03/14 23:50:38 hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhyyyyyyyyyyyyyyyyyyyyyyy
+2020/03/14 23:50:38 yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+2020/03/14 23:50:38 raft 3 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:38 raft 4 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:38 raft 0 start apply, commitIndex 6, lastApplied 5
+2020/03/14 23:50:38 raft 0, apply cammand: 6
+2020/03/14 23:50:38 server:0 apply command,index:6, Get, key:1, value:=========================
+2020/03/14 23:50:38 hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhyyyyyyyyyyyyyyyyyyyyyyy
+2020/03/14 23:50:38 yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+2020/03/14 23:50:38 {Get 1400336693560494068 4 1 }
+  ... Passed --   2.3  5   202    3
+Test: completion after heal (3A) ...
+2020/03/14 23:50:38 raft 1 start apply, commitIndex 5, lastApplied 4
+2020/03/14 23:50:38 raft 1, apply cammand: 5
+2020/03/14 23:50:38 server:1 apply command,index:5, Put, key:1, value:16=========================
+2020/03/14 23:50:38 hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhyyyyyyyyyyyyyyyyyyyyyyy
+2020/03/14 23:50:38 yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+2020/03/14 23:50:38 raft 4 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:38 raft 4, currentTerm:1, state:FOLLOWER, get commmand:{Command:Get ClientId:3978672451449050666 Seq:0 Key:1 Value:}
+2020/03/14 23:50:38 raft 2, currentTerm:2, state:FOLLOWER, get commmand:{Command:Get ClientId:3978672451449050666 Seq:0 Key:1 Value:}
+2020/03/14 23:50:38 raft 1, currentTerm:2, state:FOLLOWER, get commmand:{Command:Get ClientId:3978672451449050666 Seq:0 Key:1 Value:}
+2020/03/14 23:50:38 raft 3, currentTerm:1, state:LEADER, get commmand:{Command:Get ClientId:3978672451449050666 Seq:0 Key:1 Value:}
+2020/03/14 23:50:38 raft 3 get command, log len 7, commitIndex 1
+2020/03/14 23:50:38 raft 2 start apply, commitIndex 5, lastApplied 5
+2020/03/14 23:50:38 raft 0 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:39 raft 3 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:39 raft 4 start apply, commitIndex 1, lastApplied 1
+2020/03/14 23:50:39 raft 3 start next ping round
+2020/03/14 23:50:39 raft: 4, term: 1 become follower
+2020/03/14 23:50:39 raft 4, log len:7, commitIndex:1,lastAppliedIndex:1
+2020/03/14 23:50:39 raft 3, matchIndex [1 1 1 6 6]
+2020/03/14 23:50:39 raft: 3, term: 2 become follower
+2020/03/14 23:50:39 raft 2 start apply, commitIndex 5, lastApplied 5
+2020/03/14 23:50:39 raft 0 start next ping round
+2020/03/14 23:50:39 raft: 4, term: 2 become follower
+2020/03/14 23:50:39 raft 4, log len:7, commitIndex:6,lastAppliedIndex:1
+2020/03/14 23:50:39 raft 0, matchIndex [6 6 6 0 6]
+2020/03/14 23:50:39 raft: 1, term: 2 become follower
+2020/03/14 23:50:39 raft 1, log len:7, commitIndex:6,lastAppliedIndex:5
+2020/03/14 23:50:39 raft 0, matchIndex [6 6 6 0 6]
+2020/03/14 23:50:39 raft: 2, term: 2 become follower
+2020/03/14 23:50:39 raft 2, log len:7, commitIndex:6,lastAppliedIndex:5
+2020/03/14 23:50:39 raft 0, matchIndex [6 6 6 0 6]
+2020/03/14 23:50:39 raft: 3, term: 2 become follower
+2020/03/14 23:50:39 raft 3, log len:7, commitIndex:6,lastAppliedIndex:1
+2020/03/14 23:50:39 raft 0, matchIndex [6 6 6 6 6]
+2020/03/14 23:50:39 raft 1 start apply, commitIndex 6, lastApplied 5
+2020/03/14 23:50:39 raft 1, apply cammand: 6
+2020/03/14 23:50:39 server:1 apply command,index:6, Get, key:1, value:=========================
+2020/03/14 23:50:39 hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhyyyyyyyyyyyyyyyyyyyyyyy
+2020/03/14 23:50:39 yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+2020/03/14 23:50:39 raft 0 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:39 raft 4 start apply, commitIndex 6, lastApplied 1
+2020/03/14 23:50:39 raft 4, apply cammand: 2
+2020/03/14 23:50:39 raft 4, apply cammand: 3
+2020/03/14 23:50:39 raft 4, apply cammand: 4
+2020/03/14 23:50:39 raft 4, apply cammand: 5
+2020/03/14 23:50:39 raft 4, apply cammand: 6
+2020/03/14 23:50:39 server:4 apply command,index:2, Put, key:1, value:14=========================
+2020/03/14 23:50:39 hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhyyyyyyyyyyyyyyyyyyyyyyy
+2020/03/14 23:50:39 yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+2020/03/14 23:50:39 server:4 apply command,index:3, Get, key:1, value:=========================
+2020/03/14 23:50:39 hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhyyyyyyyyyyyyyyyyyyyyyyy
+2020/03/14 23:50:39 yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+2020/03/14 23:50:39 server:4 apply command,index:4, Get, key:1, value:=========================
+2020/03/14 23:50:39 hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhyyyyyyyyyyyyyyyyyyyyyyy
+2020/03/14 23:50:39 yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+2020/03/14 23:50:39 server:4 apply command,index:5, Put, key:1, value:16=========================
+2020/03/14 23:50:39 hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhyyyyyyyyyyyyyyyyyyyyyyy
+2020/03/14 23:50:39 yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+2020/03/14 23:50:39 server:4 apply command,index:6, Get, key:1, value:=========================
+2020/03/14 23:50:39 hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhyyyyyyyyyyyyyyyyyyyyyyy
+2020/03/14 23:50:39 yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+2020/03/14 23:50:39 raft 3 start apply, commitIndex 6, lastApplied 1
+2020/03/14 23:50:39 raft 3, apply cammand: 2
+2020/03/14 23:50:39 raft 3, apply cammand: 3
+2020/03/14 23:50:39 raft 3, apply cammand: 4
+2020/03/14 23:50:39 raft 3, apply cammand: 5
+2020/03/14 23:50:39 raft 3, apply cammand: 6
+2020/03/14 23:50:39 server:3 apply command,index:2, Put, key:1, value:14=========================
+2020/03/14 23:50:39 hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhyyyyyyyyyyyyyyyyyyyyyyy
+2020/03/14 23:50:39 yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+2020/03/14 23:50:39 server:3 apply command,index:3, Get, key:1, value:=========================
+2020/03/14 23:50:39 hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhyyyyyyyyyyyyyyyyyyyyyyy
+2020/03/14 23:50:39 yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+2020/03/14 23:50:39 server:3 apply command,index:4, Get, key:1, value:=========================
+2020/03/14 23:50:39 hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhyyyyyyyyyyyyyyyyyyyyyyy
+2020/03/14 23:50:39 yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+2020/03/14 23:50:39 server:3 apply command,index:5, Put, key:1, value:16=========================
+2020/03/14 23:50:39 hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhyyyyyyyyyyyyyyyyyyyyyyy
+2020/03/14 23:50:39 yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+2020/03/14 23:50:39 server:3 apply command,index:6, Get, key:1, value:=========================
+2020/03/14 23:50:39 hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhyyyyyyyyyyyyyyyyyyyyyyy
+2020/03/14 23:50:39 yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+2020/03/14 23:50:39 {Get 1400336693560494068 4 1 }
+2020/03/14 23:50:39 {Put 1400336693560494068 3 1 16}
+2020/03/14 23:50:39 Put key 1,value 15 succeed
+2020/03/14 23:50:39 raft 2 start apply, commitIndex 6, lastApplied 5
+2020/03/14 23:50:39 raft 2, apply cammand: 6
+2020/03/14 23:50:39 server:2 apply command,index:6, Get, key:1, value:=========================
+2020/03/14 23:50:39 hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhyyyyyyyyyyyyyyyyyyyyyyy
+2020/03/14 23:50:39 yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+2020/03/14 23:50:39 raft 1 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:39 raft 0 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:39 raft 3 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:39 raft 4 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:39 raft 3 start next ping round
+2020/03/14 23:50:39 raft 2 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:39 raft 0 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:39 raft 0 start next ping round
+2020/03/14 23:50:39 raft: 4, term: 2 become follower
+2020/03/14 23:50:39 raft 4, log len:7, commitIndex:6,lastAppliedIndex:6
+2020/03/14 23:50:39 raft 0, matchIndex [6 6 6 6 6]
+2020/03/14 23:50:39 raft: 1, term: 2 become follower
+2020/03/14 23:50:39 raft 1, log len:7, commitIndex:6,lastAppliedIndex:6
+2020/03/14 23:50:39 raft 0, matchIndex [6 6 6 6 6]
+2020/03/14 23:50:39 raft: 2, term: 2 become follower
+2020/03/14 23:50:39 raft 2, log len:7, commitIndex:6,lastAppliedIndex:6
+2020/03/14 23:50:39 raft 0, matchIndex [6 6 6 6 6]
+2020/03/14 23:50:39 raft: 3, term: 2 become follower
+2020/03/14 23:50:39 raft 3, log len:7, commitIndex:6,lastAppliedIndex:6
+2020/03/14 23:50:39 raft 0, matchIndex [6 6 6 6 6]
+2020/03/14 23:50:39 raft 1 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:39 raft 3 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:39 raft 4 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:39 raft 1 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:39 raft 2 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:39 raft 0 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:39 raft 0 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:39 raft 1 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:39 raft 3 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:39 raft 0 start next ping round
+2020/03/14 23:50:39 raft: 4, term: 2 become follower
+2020/03/14 23:50:39 raft 4, log len:7, commitIndex:6,lastAppliedIndex:6
+2020/03/14 23:50:39 raft 0, matchIndex [6 6 6 6 6]
+2020/03/14 23:50:39 raft: 1, term: 2 become follower
+2020/03/14 23:50:39 raft 1, log len:7, commitIndex:6,lastAppliedIndex:6
+2020/03/14 23:50:39 raft 0, matchIndex [6 6 6 6 6]
+2020/03/14 23:50:39 raft: 2, term: 2 become follower
+2020/03/14 23:50:39 raft 2, log len:7, commitIndex:6,lastAppliedIndex:6
+2020/03/14 23:50:39 raft 0, matchIndex [6 6 6 6 6]
+2020/03/14 23:50:39 raft: 3, term: 2 become follower
+2020/03/14 23:50:39 raft 3, log len:7, commitIndex:6,lastAppliedIndex:6
+2020/03/14 23:50:39 raft 0, matchIndex [6 6 6 6 6]
+2020/03/14 23:50:39 raft 4 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:39 raft 0 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:39 raft 2 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:39 raft 3 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:39 raft 1 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:39 raft 0 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:39 raft 4 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:39 raft 2 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:39 raft 3 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:39 raft 0 start next ping round
+2020/03/14 23:50:39 raft: 4, term: 2 become follower
+2020/03/14 23:50:39 raft 4, log len:7, commitIndex:6,lastAppliedIndex:6
+2020/03/14 23:50:39 raft 0, matchIndex [6 6 6 6 6]
+2020/03/14 23:50:39 raft: 1, term: 2 become follower
+2020/03/14 23:50:39 raft 1, log len:7, commitIndex:6,lastAppliedIndex:6
+2020/03/14 23:50:39 raft 0, matchIndex [6 6 6 6 6]
+2020/03/14 23:50:39 raft: 2, term: 2 become follower
+2020/03/14 23:50:39 raft 2, log len:7, commitIndex:6,lastAppliedIndex:6
+2020/03/14 23:50:39 raft 0, matchIndex [6 6 6 6 6]
+2020/03/14 23:50:39 raft: 3, term: 2 become follower
+2020/03/14 23:50:39 raft 3, log len:7, commitIndex:6,lastAppliedIndex:6
+2020/03/14 23:50:39 raft 0, matchIndex [6 6 6 6 6]
+2020/03/14 23:50:39 raft 1 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:39 raft 4 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:39 raft 2 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:39 raft 1 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:39 raft 0 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:39 raft 3 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:39 raft 2 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:39 raft 4 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:39 raft 1 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:39 raft 3 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:39 raft 0 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:39 raft 0 start next ping round
+2020/03/14 23:50:39 raft: 4, term: 2 become follower
+2020/03/14 23:50:39 raft 4, log len:7, commitIndex:6,lastAppliedIndex:6
+2020/03/14 23:50:39 raft 0, matchIndex [6 6 6 6 6]
+2020/03/14 23:50:39 raft: 2, term: 2 become follower
+2020/03/14 23:50:39 raft 2, log len:7, commitIndex:6,lastAppliedIndex:6
+2020/03/14 23:50:39 raft 0, matchIndex [6 6 6 6 6]
+2020/03/14 23:50:39 raft: 1, term: 2 become follower
+2020/03/14 23:50:39 raft 1, log len:7, commitIndex:6,lastAppliedIndex:6
+2020/03/14 23:50:39 raft 0, matchIndex [6 6 6 6 6]
+2020/03/14 23:50:39 raft: 3, term: 2 become follower
+2020/03/14 23:50:39 raft 3, log len:7, commitIndex:6,lastAppliedIndex:6
+2020/03/14 23:50:39 raft 0, matchIndex [6 6 6 6 6]
+2020/03/14 23:50:39 raft 2 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:39 raft 1 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:39 raft 3 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:39 raft 4 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:39 raft 0 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:39 raft 3 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:39 raft 4 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:39 raft 1 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:39 raft 2 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:39 raft 0 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:39 raft 0 start next ping round
+2020/03/14 23:50:39 raft: 4, term: 2 become follower
+2020/03/14 23:50:39 raft 4, log len:7, commitIndex:6,lastAppliedIndex:6
+2020/03/14 23:50:39 raft 0, matchIndex [6 6 6 6 6]
+2020/03/14 23:50:39 raft: 1, term: 2 become follower
+2020/03/14 23:50:39 raft 1, log len:7, commitIndex:6,lastAppliedIndex:6
+2020/03/14 23:50:39 raft 0, matchIndex [6 6 6 6 6]
+2020/03/14 23:50:39 raft: 2, term: 2 become follower
+2020/03/14 23:50:39 raft 2, log len:7, commitIndex:6,lastAppliedIndex:6
+2020/03/14 23:50:39 raft 0, matchIndex [6 6 6 6 6]
+2020/03/14 23:50:39 raft: 3, term: 2 become follower
+2020/03/14 23:50:39 raft 3, log len:7, commitIndex:6,lastAppliedIndex:6
+2020/03/14 23:50:39 raft 0, matchIndex [6 6 6 6 6]
+2020/03/14 23:50:39 raft 3 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:39 raft 2 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:39 raft 1 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:39 raft 4 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:39 raft 2 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:39 raft 0 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:39 raft 3 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:39 raft 4 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:39 raft 0 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:39 raft 1 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:39 raft 0 start next ping round
+2020/03/14 23:50:39 raft: 4, term: 2 become follower
+2020/03/14 23:50:39 raft 4, log len:7, commitIndex:6,lastAppliedIndex:6
+2020/03/14 23:50:39 raft 0, matchIndex [6 6 6 6 6]
+2020/03/14 23:50:39 raft: 1, term: 2 become follower
+2020/03/14 23:50:39 raft 1, log len:7, commitIndex:6,lastAppliedIndex:6
+2020/03/14 23:50:39 raft 0, matchIndex [6 6 6 6 6]
+2020/03/14 23:50:39 raft: 2, term: 2 become follower
+2020/03/14 23:50:39 raft 2, log len:7, commitIndex:6,lastAppliedIndex:6
+2020/03/14 23:50:39 raft 0, matchIndex [6 6 6 6 6]
+2020/03/14 23:50:39 raft: 3, term: 2 become follower
+2020/03/14 23:50:39 raft 3, log len:7, commitIndex:6,lastAppliedIndex:6
+2020/03/14 23:50:39 raft 0, matchIndex [6 6 6 6 6]
+2020/03/14 23:50:39 raft 2 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:39 raft 3 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:39 raft 0 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:39 raft 4 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:39 raft 1 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:39 raft 2 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:39 raft 3 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:39 raft 0 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:39 raft 0 start next ping round
+2020/03/14 23:50:39 raft: 4, term: 2 become follower
+2020/03/14 23:50:39 raft 4, log len:7, commitIndex:6,lastAppliedIndex:6
+2020/03/14 23:50:39 raft 0, matchIndex [6 6 6 6 6]
+2020/03/14 23:50:39 raft: 1, term: 2 become follower
+2020/03/14 23:50:39 raft 1, log len:7, commitIndex:6,lastAppliedIndex:6
+2020/03/14 23:50:39 raft 0, matchIndex [6 6 6 6 6]
+2020/03/14 23:50:39 raft: 2, term: 2 become follower
+2020/03/14 23:50:39 raft 2, log len:7, commitIndex:6,lastAppliedIndex:6
+2020/03/14 23:50:39 raft 0, matchIndex [6 6 6 6 6]
+2020/03/14 23:50:39 raft: 3, term: 2 become follower
+2020/03/14 23:50:39 raft 3, log len:7, commitIndex:6,lastAppliedIndex:6
+2020/03/14 23:50:39 raft 0, matchIndex [6 6 6 6 6]
+2020/03/14 23:50:39 raft 1 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:39 raft 2 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:39 raft 4 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:39 raft 3 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:39 raft 1 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:39 raft 0 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:39 raft 2 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:39 raft 0 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:39 raft 4 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:39 raft 3 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:39 raft 0 start next ping round
+2020/03/14 23:50:39 raft: 4, term: 2 become follower
+2020/03/14 23:50:39 raft 4, log len:7, commitIndex:6,lastAppliedIndex:6
+2020/03/14 23:50:39 raft 0, matchIndex [6 6 6 6 6]
+2020/03/14 23:50:39 raft: 1, term: 2 become follower
+2020/03/14 23:50:39 raft 1, log len:7, commitIndex:6,lastAppliedIndex:6
+2020/03/14 23:50:39 raft 0, matchIndex [6 6 6 6 6]
+2020/03/14 23:50:39 raft: 2, term: 2 become follower
+2020/03/14 23:50:39 raft 2, log len:7, commitIndex:6,lastAppliedIndex:6
+2020/03/14 23:50:39 raft 0, matchIndex [6 6 6 6 6]
+2020/03/14 23:50:39 raft: 3, term: 2 become follower
+2020/03/14 23:50:39 raft 3, log len:7, commitIndex:6,lastAppliedIndex:6
+2020/03/14 23:50:39 raft 0, matchIndex [6 6 6 6 6]
+2020/03/14 23:50:39 raft 1 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:39 raft 2 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:39 raft 3 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:39 raft 0 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:39 raft 4 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:39 raft 2 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:39 raft 1 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:39 raft 2 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:39 raft 3 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:39 raft 0 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:39 raft 0 start next ping round
+2020/03/14 23:50:39 raft: 4, term: 2 become follower
+2020/03/14 23:50:39 raft 4, log len:7, commitIndex:6,lastAppliedIndex:6
+2020/03/14 23:50:39 raft 0, matchIndex [6 6 6 6 6]
+2020/03/14 23:50:39 raft: 1, term: 2 become follower
+2020/03/14 23:50:39 raft 1, log len:7, commitIndex:6,lastAppliedIndex:6
+2020/03/14 23:50:39 raft 0, matchIndex [6 6 6 6 6]
+2020/03/14 23:50:39 raft: 2, term: 2 become follower
+2020/03/14 23:50:39 raft 2, log len:7, commitIndex:6,lastAppliedIndex:6
+2020/03/14 23:50:39 raft 0, matchIndex [6 6 6 6 6]
+2020/03/14 23:50:39 raft: 3, term: 2 become follower
+2020/03/14 23:50:39 raft 3, log len:7, commitIndex:6,lastAppliedIndex:6
+2020/03/14 23:50:39 raft 0, matchIndex [6 6 6 6 6]
+2020/03/14 23:50:39 raft 4 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:39 raft 1 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:39 raft 3, currentTerm:2, state:FOLLOWER, get commmand:{Command:Get ClientId:3406674726706869996 Seq:1 Key:1 Value:}
+2020/03/14 23:50:39 raft 2, currentTerm:2, state:FOLLOWER, get commmand:{Command:Get ClientId:3406674726706869996 Seq:1 Key:1 Value:}
+2020/03/14 23:50:39 raft 1, currentTerm:2, state:FOLLOWER, get commmand:{Command:Get ClientId:3406674726706869996 Seq:1 Key:1 Value:}
+2020/03/14 23:50:39 raft 4, currentTerm:2, state:FOLLOWER, get commmand:{Command:Get ClientId:3406674726706869996 Seq:1 Key:1 Value:}
+2020/03/14 23:50:39 raft 0, currentTerm:2, state:LEADER, get commmand:{Command:Get ClientId:3406674726706869996 Seq:1 Key:1 Value:}
+2020/03/14 23:50:39 raft 0 get command, log len 8, commitIndex 6
+2020/03/14 23:50:39 raft 3 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:39 raft 2 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:39 raft 0 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:40 raft 4 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:40 raft 1 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:40 raft 3 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:40 raft 0 start next ping round
+2020/03/14 23:50:40 raft: 4, term: 2 become follower
+2020/03/14 23:50:40 raft 4, log len:8, commitIndex:6,lastAppliedIndex:6
+2020/03/14 23:50:40 raft 0, matchIndex [7 6 6 6 7]
+2020/03/14 23:50:40 raft: 1, term: 2 become follower
+2020/03/14 23:50:40 raft 1, log len:8, commitIndex:6,lastAppliedIndex:6
+2020/03/14 23:50:40 raft 0, matchIndex [7 7 6 6 7]
+2020/03/14 23:50:40 raft 0 advance commit index to 7
+2020/03/14 23:50:40 raft: 2, term: 2 become follower
+2020/03/14 23:50:40 raft 2, log len:8, commitIndex:6,lastAppliedIndex:6
+2020/03/14 23:50:40 raft 0, matchIndex [7 7 7 6 7]
+2020/03/14 23:50:40 raft: 3, term: 2 become follower
+2020/03/14 23:50:40 raft 3, log len:8, commitIndex:6,lastAppliedIndex:6
+2020/03/14 23:50:40 raft 0, matchIndex [7 7 7 7 7]
+2020/03/14 23:50:40 raft 0 start apply, commitIndex 7, lastApplied 6
+2020/03/14 23:50:40 raft 0, apply cammand: 7
+2020/03/14 23:50:40 raft 2 start apply, commitIndex 6, lastApplied 6
+2020/03/14 23:50:40 server:0 apply command,index:7, Get, key:1, value:=========================
+2020/03/14 23:50:40 hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhyyyyyyyyyyyyyyyyyyyyyyy
+2020/03/14 23:50:40 yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+2020/03/14 23:50:40 {Get 3406674726706869996 1 1 }
+--- FAIL: TestOnePartition3A (5.63s)
+    test_test.go:42: Get(1): expected:
+        15
+        received:
+        16
+FAIL
+exit status 1
+FAIL	6.824/src/kvraft	5.632s

@@ -1,0 +1,540 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AddServer	src/labrpc/labrpc.go	/^func (rn *Network) AddServer(servername interface{}, rs *Server) {$/;"	f
+AddService	src/labrpc/labrpc.go	/^func (rs *Server) AddService(svc *Service) {$/;"	f
+All	src/kvraft/config.go	/^func (cfg *config) All() []int {$/;"	f
+All	src/shardmaster/config.go	/^func (cfg *config) All() []int {$/;"	f
+Append	src/kvraft/client.go	/^func (ck *Clerk) Append(key string, value string) {$/;"	f
+Append	src/kvraft/test_test.go	/^func Append(cfg *config, ck *Clerk, key string, value string) {$/;"	f
+Append	src/shardkv/client.go	/^func (ck *Clerk) Append(key string, value string) {$/;"	f
+AppendEntries	src/raft/raft.go	/^func (rf *Raft) AppendEntries(args AppendEntriesArgs, reply *AppendEntriesReply) {$/;"	f
+AppendEntriesArgs	src/raft/raft.go	/^type AppendEntriesArgs struct {$/;"	t
+AppendEntriesReply	src/raft/raft.go	/^type AppendEntriesReply struct {$/;"	t
+ApplyMsg	src/raft/raft.go	/^type ApplyMsg struct {$/;"	t
+ByKey	src/main/mrsequential.go	/^type ByKey []mr.KeyValue$/;"	t
+Call	src/labrpc/labrpc.go	/^func (e *ClientEnd) Call(svcMeth string, args interface{}, reply interface{}) bool {$/;"	f
+CallExample	src/mr/worker.go	/^func CallExample() {$/;"	f
+CheckEvents	src/porcupine/porcupine.go	/^func CheckEvents(model Model, history []Event) bool {$/;"	f
+CheckEventsTimeout	src/porcupine/porcupine.go	/^func CheckEventsTimeout(model Model, history []Event, timeout time.Duration) CheckResult {$/;"	f
+CheckEventsVerbose	src/porcupine/porcupine.go	/^func CheckEventsVerbose(model Model, history []Event, timeout time.Duration) (CheckResult, linearizationInfo) {$/;"	f
+CheckOperations	src/porcupine/porcupine.go	/^func CheckOperations(model Model, history []Operation) bool {$/;"	f
+CheckOperationsTimeout	src/porcupine/porcupine.go	/^func CheckOperationsTimeout(model Model, history []Operation, timeout time.Duration) CheckResult {$/;"	f
+CheckOperationsVerbose	src/porcupine/porcupine.go	/^func CheckOperationsVerbose(model Model, history []Operation, timeout time.Duration) (CheckResult, linearizationInfo) {$/;"	f
+CheckResult	src/porcupine/model.go	/^type CheckResult string$/;"	t
+Cleanup	src/labrpc/labrpc.go	/^func (rn *Network) Cleanup() {$/;"	f
+Clerk	src/kvraft/client.go	/^type Clerk struct {$/;"	t
+Clerk	src/shardkv/client.go	/^type Clerk struct {$/;"	t
+Clerk	src/shardmaster/client.go	/^type Clerk struct {$/;"	t
+ClientEnd	src/labrpc/labrpc.go	/^type ClientEnd struct {$/;"	t
+Config	src/shardmaster/common.go	/^type Config struct {$/;"	t
+Connect	src/labrpc/labrpc.go	/^func (rn *Network) Connect(endname interface{}, servername interface{}) {$/;"	f
+ConnectAll	src/kvraft/config.go	/^func (cfg *config) ConnectAll() {$/;"	f
+ConnectAll	src/shardmaster/config.go	/^func (cfg *config) ConnectAll() {$/;"	f
+ConnectClient	src/kvraft/config.go	/^func (cfg *config) ConnectClient(ck *Clerk, to []int) {$/;"	f
+ConnectClient	src/shardmaster/config.go	/^func (cfg *config) ConnectClient(ck *Clerk, to []int) {$/;"	f
+ConnectClientUnlocked	src/kvraft/config.go	/^func (cfg *config) ConnectClientUnlocked(ck *Clerk, to []int) {$/;"	f
+ConnectClientUnlocked	src/shardmaster/config.go	/^func (cfg *config) ConnectClientUnlocked(ck *Clerk, to []int) {$/;"	f
+Copy	src/raft/persister.go	/^func (ps *Persister) Copy() *Persister {$/;"	f
+DD	src/labgob/test_test.go	/^	type DD struct {$/;"	t
+DPrintf	src/kvraft/server.go	/^func DPrintf(format string, a ...interface{}) (n int, err error) {$/;"	f
+DPrintf	src/raft/util.go	/^func DPrintf(format string, a ...interface{}) (n int, err error) {$/;"	f
+Decode	src/labgob/labgob.go	/^func (dec *LabDecoder) Decode(e interface{}) error {$/;"	f
+DefaultDescribeOperation	src/porcupine/model.go	/^func DefaultDescribeOperation(input interface{}, output interface{}) string {$/;"	f
+DefaultDescribeState	src/porcupine/model.go	/^func DefaultDescribeState(state interface{}) string {$/;"	f
+DeleteServer	src/labrpc/labrpc.go	/^func (rn *Network) DeleteServer(servername interface{}) {$/;"	f
+DisconnectClient	src/kvraft/config.go	/^func (cfg *config) DisconnectClient(ck *Clerk, from []int) {$/;"	f
+DisconnectClient	src/shardmaster/config.go	/^func (cfg *config) DisconnectClient(ck *Clerk, from []int) {$/;"	f
+DisconnectClientUnlocked	src/kvraft/config.go	/^func (cfg *config) DisconnectClientUnlocked(ck *Clerk, from []int) {$/;"	f
+DisconnectClientUnlocked	src/shardmaster/config.go	/^func (cfg *config) DisconnectClientUnlocked(ck *Clerk, from []int) {$/;"	f
+Done	src/mr/master.go	/^func (m *Master) Done() bool {$/;"	f
+Enable	src/labrpc/labrpc.go	/^func (rn *Network) Enable(endname interface{}, enabled bool) {$/;"	f
+Encode	src/labgob/labgob.go	/^func (enc *LabEncoder) Encode(e interface{}) error {$/;"	f
+EncodeValue	src/labgob/labgob.go	/^func (enc *LabEncoder) EncodeValue(value reflect.Value) error {$/;"	f
+Err	src/kvraft/common.go	/^type Err string$/;"	t
+Err	src/shardkv/common.go	/^type Err string$/;"	t
+Err	src/shardmaster/common.go	/^type Err string$/;"	t
+Event	src/porcupine/model.go	/^type Event struct {$/;"	t
+EventKind	src/porcupine/model.go	/^type EventKind bool$/;"	t
+Example	src/mr/master.go	/^func (m *Master) Example(args *ExampleArgs, reply *ExampleReply) error {$/;"	f
+ExampleArgs	src/mr/rpc.go	/^type ExampleArgs struct {$/;"	t
+ExampleReply	src/mr/rpc.go	/^type ExampleReply struct {$/;"	t
+GenericTest	src/kvraft/test_test.go	/^func GenericTest(t *testing.T, part string, nclients int, unreliable bool, crash bool, partitions bool, maxraftstate int) {$/;"	f
+GenericTestLinearizability	src/kvraft/test_test.go	/^func GenericTestLinearizability(t *testing.T, part string, nclients int, nservers int, unreliable bool, crash bool, partitions bool, maxraftstate int) {$/;"	f
+Get	src/kvraft/client.go	/^func (ck *Clerk) Get(key string) string {$/;"	f
+Get	src/kvraft/server.go	/^func (kv *KVServer) Get(args *GetArgs, reply *GetReply) {$/;"	f
+Get	src/kvraft/test_test.go	/^func Get(cfg *config, ck *Clerk, key string) string {$/;"	f
+Get	src/shardkv/client.go	/^func (ck *Clerk) Get(key string) string {$/;"	f
+Get	src/shardkv/server.go	/^func (kv *ShardKV) Get(args *GetArgs, reply *GetReply) {$/;"	f
+GetArgs	src/kvraft/common.go	/^type GetArgs struct {$/;"	t
+GetArgs	src/shardkv/common.go	/^type GetArgs struct {$/;"	t
+GetCount	src/labrpc/labrpc.go	/^func (rn *Network) GetCount(servername interface{}) int {$/;"	f
+GetCount	src/labrpc/labrpc.go	/^func (rs *Server) GetCount() int {$/;"	f
+GetReply	src/kvraft/common.go	/^type GetReply struct {$/;"	t
+GetReply	src/shardkv/common.go	/^type GetReply struct {$/;"	t
+GetState	src/raft/raft.go	/^func (rf *Raft) GetState() (int, bool) {$/;"	f
+GetTotalBytes	src/labrpc/labrpc.go	/^func (rn *Network) GetTotalBytes() int64 {$/;"	f
+GetTotalCount	src/labrpc/labrpc.go	/^func (rn *Network) GetTotalCount() int {$/;"	f
+Handler1	src/labrpc/test_test.go	/^func (js *JunkServer) Handler1(args string, reply *int) {$/;"	f
+Handler2	src/labrpc/test_test.go	/^func (js *JunkServer) Handler2(args int, reply *string) {$/;"	f
+Handler3	src/labrpc/test_test.go	/^func (js *JunkServer) Handler3(args int, reply *int) {$/;"	f
+Handler4	src/labrpc/test_test.go	/^func (js *JunkServer) Handler4(args *JunkArgs, reply *JunkReply) {$/;"	f
+Handler5	src/labrpc/test_test.go	/^func (js *JunkServer) Handler5(args JunkArgs, reply *JunkReply) {$/;"	f
+Handler6	src/labrpc/test_test.go	/^func (js *JunkServer) Handler6(args string, reply *int) {$/;"	f
+Handler7	src/labrpc/test_test.go	/^func (js *JunkServer) Handler7(args int, reply *string) {$/;"	f
+Join	src/shardmaster/client.go	/^func (ck *Clerk) Join(servers map[int][]string) {$/;"	f
+Join	src/shardmaster/server.go	/^func (sm *ShardMaster) Join(args *JoinArgs, reply *JoinReply) {$/;"	f
+JoinArgs	src/shardmaster/common.go	/^type JoinArgs struct {$/;"	t
+JoinReply	src/shardmaster/common.go	/^type JoinReply struct {$/;"	t
+JunkArgs	src/labrpc/test_test.go	/^type JunkArgs struct {$/;"	t
+JunkReply	src/labrpc/test_test.go	/^type JunkReply struct {$/;"	t
+JunkServer	src/labrpc/test_test.go	/^type JunkServer struct {$/;"	t
+KVServer	src/kvraft/server.go	/^type KVServer struct {$/;"	t
+KeyValue	src/mr/worker.go	/^type KeyValue struct {$/;"	t
+Kill	src/kvraft/server.go	/^func (kv *KVServer) Kill() {$/;"	f
+Kill	src/raft/raft.go	/^func (rf *Raft) Kill() {$/;"	f
+Kill	src/shardkv/server.go	/^func (kv *ShardKV) Kill() {$/;"	f
+Kill	src/shardmaster/server.go	/^func (sm *ShardMaster) Kill() {$/;"	f
+KvInput	src/models/kv.go	/^type KvInput struct {$/;"	t
+KvModel	src/models/kv.go	/^var KvModel = porcupine.Model{$/;"	v
+KvOutput	src/models/kv.go	/^type KvOutput struct {$/;"	t
+LABS	Makefile	/^LABS=" lab1 lab2a lab2b lab2c lab3a lab3b lab4a lab4b "$/;"	m
+LabDecoder	src/labgob/labgob.go	/^type LabDecoder struct {$/;"	t
+LabEncoder	src/labgob/labgob.go	/^type LabEncoder struct {$/;"	t
+Leader	src/kvraft/config.go	/^func (cfg *config) Leader() (bool, int) {$/;"	f
+Leader	src/shardmaster/config.go	/^func (cfg *config) Leader() (bool, int) {$/;"	f
+Leave	src/shardmaster/client.go	/^func (ck *Clerk) Leave(gids []int) {$/;"	f
+Leave	src/shardmaster/server.go	/^func (sm *ShardMaster) Leave(args *LeaveArgs, reply *LeaveReply) {$/;"	f
+LeaveArgs	src/shardmaster/common.go	/^type LeaveArgs struct {$/;"	t
+LeaveReply	src/shardmaster/common.go	/^type LeaveReply struct {$/;"	t
+Len	src/main/mrsequential.go	/^func (a ByKey) Len() int           { return len(a) }$/;"	f
+Len	src/porcupine/checker.go	/^func (a byTime) Len() int {$/;"	f
+Less	src/main/mrsequential.go	/^func (a ByKey) Less(i, j int) bool { return a[i].Key < a[j].Key }$/;"	f
+Less	src/porcupine/checker.go	/^func (a byTime) Less(i, j int) bool {$/;"	f
+LogEntry	src/raft/raft.go	/^type LogEntry struct {$/;"	t
+LogSize	src/kvraft/config.go	/^func (cfg *config) LogSize() int {$/;"	f
+LogSize	src/shardmaster/config.go	/^func (cfg *config) LogSize() int {$/;"	f
+LongDelays	src/labrpc/labrpc.go	/^func (rn *Network) LongDelays(yes bool) {$/;"	f
+LongReordering	src/labrpc/labrpc.go	/^func (rn *Network) LongReordering(yes bool) {$/;"	f
+Make	src/raft/raft.go	/^func Make(peers []*labrpc.ClientEnd, me int,$/;"	f
+MakeClerk	src/kvraft/client.go	/^func MakeClerk(servers []*labrpc.ClientEnd) *Clerk {$/;"	f
+MakeClerk	src/shardkv/client.go	/^func MakeClerk(masters []*labrpc.ClientEnd, make_end func(string) *labrpc.ClientEnd) *Clerk {$/;"	f
+MakeClerk	src/shardmaster/client.go	/^func MakeClerk(servers []*labrpc.ClientEnd) *Clerk {$/;"	f
+MakeEnd	src/labrpc/labrpc.go	/^func (rn *Network) MakeEnd(endname interface{}) *ClientEnd {$/;"	f
+MakeMaster	src/mr/master.go	/^func MakeMaster(files []string, nReduce int) *Master {$/;"	f
+MakeNetwork	src/labrpc/labrpc.go	/^func MakeNetwork() *Network {$/;"	f
+MakePersister	src/raft/persister.go	/^func MakePersister() *Persister {$/;"	f
+MakeServer	src/labrpc/labrpc.go	/^func MakeServer() *Server {$/;"	f
+MakeService	src/labrpc/labrpc.go	/^func MakeService(rcvr interface{}) *Service {$/;"	f
+Map	src/mrapps/crash.go	/^func Map(filename string, contents string) []mr.KeyValue {$/;"	f
+Map	src/mrapps/indexer.go	/^func Map(document string, value string) (res []mr.KeyValue) {$/;"	f
+Map	src/mrapps/mtiming.go	/^func Map(filename string, contents string) []mr.KeyValue {$/;"	f
+Map	src/mrapps/nocrash.go	/^func Map(filename string, contents string) []mr.KeyValue {$/;"	f
+Map	src/mrapps/rtiming.go	/^func Map(filename string, contents string) []mr.KeyValue {$/;"	f
+Map	src/mrapps/wc.go	/^func Map(filename string, contents string) []mr.KeyValue {$/;"	f
+Master	src/mr/master.go	/^type Master struct {$/;"	t
+Model	src/porcupine/model.go	/^type Model struct {$/;"	t
+Move	src/shardmaster/client.go	/^func (ck *Clerk) Move(shard int, gid int) {$/;"	f
+Move	src/shardmaster/server.go	/^func (sm *ShardMaster) Move(args *MoveArgs, reply *MoveReply) {$/;"	f
+MoveArgs	src/shardmaster/common.go	/^type MoveArgs struct {$/;"	t
+MoveReply	src/shardmaster/common.go	/^type MoveReply struct {$/;"	t
+Network	src/labrpc/labrpc.go	/^type Network struct {$/;"	t
+NewDecoder	src/labgob/labgob.go	/^func NewDecoder(r io.Reader) *LabDecoder {$/;"	f
+NewEncoder	src/labgob/labgob.go	/^func NewEncoder(w io.Writer) *LabEncoder {$/;"	f
+NextValue	src/kvraft/test_test.go	/^func NextValue(prev string, val string) string {$/;"	f
+NoPartition	src/porcupine/model.go	/^func NoPartition(history []Operation) [][]Operation {$/;"	f
+NoPartitionEvent	src/porcupine/model.go	/^func NoPartitionEvent(history []Event) [][]Event {$/;"	f
+Op	src/kvraft/server.go	/^type Op struct {$/;"	t
+Op	src/shardkv/server.go	/^type Op struct {$/;"	t
+Op	src/shardmaster/server.go	/^type Op struct {$/;"	t
+Operation	src/porcupine/model.go	/^type Operation struct {$/;"	t
+Persister	src/raft/persister.go	/^type Persister struct {$/;"	t
+Put	src/kvraft/client.go	/^func (ck *Clerk) Put(key string, value string) {$/;"	f
+Put	src/kvraft/test_test.go	/^func Put(cfg *config, ck *Clerk, key string, value string) {$/;"	f
+Put	src/shardkv/client.go	/^func (ck *Clerk) Put(key string, value string) {$/;"	f
+PutAppend	src/kvraft/client.go	/^func (ck *Clerk) PutAppend(key string, value string, op string) {$/;"	f
+PutAppend	src/kvraft/server.go	/^func (kv *KVServer) PutAppend(args *PutAppendArgs, reply *PutAppendReply) {$/;"	f
+PutAppend	src/shardkv/client.go	/^func (ck *Clerk) PutAppend(key string, value string, op string) {$/;"	f
+PutAppend	src/shardkv/server.go	/^func (kv *ShardKV) PutAppend(args *PutAppendArgs, reply *PutAppendReply) {$/;"	f
+PutAppendArgs	src/kvraft/common.go	/^type PutAppendArgs struct {$/;"	t
+PutAppendArgs	src/shardkv/common.go	/^type PutAppendArgs struct {$/;"	t
+PutAppendReply	src/kvraft/common.go	/^type PutAppendReply struct {$/;"	t
+PutAppendReply	src/shardkv/common.go	/^type PutAppendReply struct {$/;"	t
+Query	src/shardmaster/client.go	/^func (ck *Clerk) Query(num int) Config {$/;"	f
+Query	src/shardmaster/server.go	/^func (sm *ShardMaster) Query(args *QueryArgs, reply *QueryReply) {$/;"	f
+QueryArgs	src/shardmaster/common.go	/^type QueryArgs struct {$/;"	t
+QueryReply	src/shardmaster/common.go	/^type QueryReply struct {$/;"	t
+Raft	src/raft/raft.go	/^type Raft struct {$/;"	t
+Raft	src/shardmaster/server.go	/^func (sm *ShardMaster) Raft() *raft.Raft {$/;"	f
+RaftStateSize	src/raft/persister.go	/^func (ps *Persister) RaftStateSize() int {$/;"	f
+ReadRaftState	src/raft/persister.go	/^func (ps *Persister) ReadRaftState() []byte {$/;"	f
+ReadSnapshot	src/raft/persister.go	/^func (ps *Persister) ReadSnapshot() []byte {$/;"	f
+Reduce	src/mrapps/crash.go	/^func Reduce(key string, values []string) string {$/;"	f
+Reduce	src/mrapps/indexer.go	/^func Reduce(key string, values []string) string {$/;"	f
+Reduce	src/mrapps/mtiming.go	/^func Reduce(key string, values []string) string {$/;"	f
+Reduce	src/mrapps/nocrash.go	/^func Reduce(key string, values []string) string {$/;"	f
+Reduce	src/mrapps/rtiming.go	/^func Reduce(key string, values []string) string {$/;"	f
+Reduce	src/mrapps/wc.go	/^func Reduce(key string, values []string) string {$/;"	f
+Register	src/labgob/labgob.go	/^func Register(value interface{}) {$/;"	f
+RegisterName	src/labgob/labgob.go	/^func RegisterName(name string, value interface{}) {$/;"	f
+Reliable	src/labrpc/labrpc.go	/^func (rn *Network) Reliable(yes bool) {$/;"	f
+RequestVote	src/raft/raft.go	/^func (rf *Raft) RequestVote(args RequestVoteArgs, reply *RequestVoteReply) {$/;"	f
+RequestVoteArgs	src/raft/raft.go	/^type RequestVoteArgs struct {$/;"	t
+RequestVoteReply	src/raft/raft.go	/^type RequestVoteReply struct {$/;"	t
+SaveRaftState	src/raft/persister.go	/^func (ps *Persister) SaveRaftState(state []byte) {$/;"	f
+SaveStateAndSnapshot	src/raft/persister.go	/^func (ps *Persister) SaveStateAndSnapshot(state []byte, snapshot []byte) {$/;"	f
+Server	src/labrpc/labrpc.go	/^type Server struct {$/;"	t
+Service	src/labrpc/labrpc.go	/^type Service struct {$/;"	t
+ShallowEqual	src/porcupine/model.go	/^func ShallowEqual(state1, state2 interface{}) bool {$/;"	f
+ShardKV	src/shardkv/server.go	/^type ShardKV struct {$/;"	t
+ShardMaster	src/shardmaster/server.go	/^type ShardMaster struct {$/;"	t
+ShutdownGroup	src/shardkv/config.go	/^func (cfg *config) ShutdownGroup(gi int) {$/;"	f
+ShutdownServer	src/kvraft/config.go	/^func (cfg *config) ShutdownServer(i int) {$/;"	f
+ShutdownServer	src/shardkv/config.go	/^func (cfg *config) ShutdownServer(gi int, i int) {$/;"	f
+ShutdownServer	src/shardmaster/config.go	/^func (cfg *config) ShutdownServer(i int) {$/;"	f
+SnapshotSize	src/kvraft/config.go	/^func (cfg *config) SnapshotSize() int {$/;"	f
+SnapshotSize	src/raft/persister.go	/^func (ps *Persister) SnapshotSize() int {$/;"	f
+Start	src/raft/raft.go	/^func (rf *Raft) Start(command interface{}) (int, int, bool) {$/;"	f
+StartGroup	src/shardkv/config.go	/^func (cfg *config) StartGroup(gi int) {$/;"	f
+StartKVServer	src/kvraft/server.go	/^func StartKVServer(servers []*labrpc.ClientEnd, me int, persister *raft.Persister, maxraftstate int) *KVServer {$/;"	f
+StartMasterServer	src/shardkv/config.go	/^func (cfg *config) StartMasterServer(i int) {$/;"	f
+StartServer	src/kvraft/config.go	/^func (cfg *config) StartServer(i int) {$/;"	f
+StartServer	src/shardkv/config.go	/^func (cfg *config) StartServer(gi int, i int) {$/;"	f
+StartServer	src/shardkv/server.go	/^func StartServer(servers []*labrpc.ClientEnd, me int, persister *raft.Persister, maxraftstate int, gid int, masters []*labrpc.ClientEnd, make_end func(string) *labrpc.ClientEnd) *ShardKV {$/;"	f
+StartServer	src/shardmaster/config.go	/^func (cfg *config) StartServer(i int) {$/;"	f
+StartServer	src/shardmaster/server.go	/^func StartServer(servers []*labrpc.ClientEnd, me int, persister *raft.Persister) *ShardMaster {$/;"	f
+Swap	src/main/mrsequential.go	/^func (a ByKey) Swap(i, j int)      { a[i], a[j] = a[j], a[i] }$/;"	f
+Swap	src/porcupine/checker.go	/^func (a byTime) Swap(i, j int) {$/;"	f
+T1	src/labgob/test_test.go	/^type T1 struct {$/;"	t
+T2	src/labgob/test_test.go	/^type T2 struct {$/;"	t
+T3	src/labgob/test_test.go	/^type T3 struct {$/;"	t
+T4	src/labgob/test_test.go	/^type T4 struct {$/;"	t
+TestBackup2B	src/raft/test_test.go	/^func TestBackup2B(t *testing.T) {$/;"	f
+TestBasic	src/labrpc/test_test.go	/^func TestBasic(t *testing.T) {$/;"	f
+TestBasic	src/shardmaster/test_test.go	/^func TestBasic(t *testing.T) {$/;"	f
+TestBasic3A	src/kvraft/test_test.go	/^func TestBasic3A(t *testing.T) {$/;"	f
+TestBasicAgree2B	src/raft/test_test.go	/^func TestBasicAgree2B(t *testing.T) {$/;"	f
+TestBenchmark	src/labrpc/test_test.go	/^func TestBenchmark(t *testing.T) {$/;"	f
+TestBytes	src/labrpc/test_test.go	/^func TestBytes(t *testing.T) {$/;"	f
+TestCapital	src/labgob/test_test.go	/^func TestCapital(t *testing.T) {$/;"	f
+TestChallenge1Concurrent	src/shardkv/test_test.go	/^func TestChallenge1Concurrent(t *testing.T) {$/;"	f
+TestChallenge1Delete	src/shardkv/test_test.go	/^func TestChallenge1Delete(t *testing.T) {$/;"	f
+TestChallenge2Partial	src/shardkv/test_test.go	/^func TestChallenge2Partial(t *testing.T) {$/;"	f
+TestChallenge2Unaffected	src/shardkv/test_test.go	/^func TestChallenge2Unaffected(t *testing.T) {$/;"	f
+TestConcurrent1	src/shardkv/test_test.go	/^func TestConcurrent1(t *testing.T) {$/;"	f
+TestConcurrent2	src/shardkv/test_test.go	/^func TestConcurrent2(t *testing.T) {$/;"	f
+TestConcurrent3A	src/kvraft/test_test.go	/^func TestConcurrent3A(t *testing.T) {$/;"	f
+TestConcurrentMany	src/labrpc/test_test.go	/^func TestConcurrentMany(t *testing.T) {$/;"	f
+TestConcurrentOne	src/labrpc/test_test.go	/^func TestConcurrentOne(t *testing.T) {$/;"	f
+TestConcurrentStarts2B	src/raft/test_test.go	/^func TestConcurrentStarts2B(t *testing.T) {$/;"	f
+TestCount2B	src/raft/test_test.go	/^func TestCount2B(t *testing.T) {$/;"	f
+TestCounts	src/labrpc/test_test.go	/^func TestCounts(t *testing.T) {$/;"	f
+TestDefault	src/labgob/test_test.go	/^func TestDefault(t *testing.T) {$/;"	f
+TestDisconnect	src/labrpc/test_test.go	/^func TestDisconnect(t *testing.T) {$/;"	f
+TestFailAgree2B	src/raft/test_test.go	/^func TestFailAgree2B(t *testing.T) {$/;"	f
+TestFailNoAgree2B	src/raft/test_test.go	/^func TestFailNoAgree2B(t *testing.T) {$/;"	f
+TestFigure82C	src/raft/test_test.go	/^func TestFigure82C(t *testing.T) {$/;"	f
+TestFigure8Unreliable2C	src/raft/test_test.go	/^func TestFigure8Unreliable2C(t *testing.T) {$/;"	f
+TestGOB	src/labgob/test_test.go	/^func TestGOB(t *testing.T) {$/;"	f
+TestInitialElection2A	src/raft/test_test.go	/^func TestInitialElection2A(t *testing.T) {$/;"	f
+TestJoinLeave	src/shardkv/test_test.go	/^func TestJoinLeave(t *testing.T) {$/;"	f
+TestKilled	src/labrpc/test_test.go	/^func TestKilled(t *testing.T) {$/;"	f
+TestManyPartitionsManyClients3A	src/kvraft/test_test.go	/^func TestManyPartitionsManyClients3A(t *testing.T) {$/;"	f
+TestManyPartitionsOneClient3A	src/kvraft/test_test.go	/^func TestManyPartitionsOneClient3A(t *testing.T) {$/;"	f
+TestMe	src/raft/me_test.go	/^func TestMe(t *testing.T) {$/;"	f
+TestMissChange	src/shardkv/test_test.go	/^func TestMissChange(t *testing.T) {$/;"	f
+TestMulti	src/shardmaster/test_test.go	/^func TestMulti(t *testing.T) {$/;"	f
+TestOnePartition3A	src/kvraft/test_test.go	/^func TestOnePartition3A(t *testing.T) {$/;"	f
+TestPersist12C	src/raft/test_test.go	/^func TestPersist12C(t *testing.T) {$/;"	f
+TestPersist22C	src/raft/test_test.go	/^func TestPersist22C(t *testing.T) {$/;"	f
+TestPersist32C	src/raft/test_test.go	/^func TestPersist32C(t *testing.T) {$/;"	f
+TestPersistConcurrent3A	src/kvraft/test_test.go	/^func TestPersistConcurrent3A(t *testing.T) {$/;"	f
+TestPersistConcurrentUnreliable3A	src/kvraft/test_test.go	/^func TestPersistConcurrentUnreliable3A(t *testing.T) {$/;"	f
+TestPersistOneClient3A	src/kvraft/test_test.go	/^func TestPersistOneClient3A(t *testing.T) {$/;"	f
+TestPersistPartition3A	src/kvraft/test_test.go	/^func TestPersistPartition3A(t *testing.T) {$/;"	f
+TestPersistPartitionUnreliable3A	src/kvraft/test_test.go	/^func TestPersistPartitionUnreliable3A(t *testing.T) {$/;"	f
+TestPersistPartitionUnreliableLinearizable3A	src/kvraft/test_test.go	/^func TestPersistPartitionUnreliableLinearizable3A(t *testing.T) {$/;"	f
+TestRPCBytes2B	src/raft/test_test.go	/^func TestRPCBytes2B(t *testing.T) {$/;"	f
+TestReElection2A	src/raft/test_test.go	/^func TestReElection2A(t *testing.T) {$/;"	f
+TestRegression1	src/labrpc/test_test.go	/^func TestRegression1(t *testing.T) {$/;"	f
+TestRejoin2B	src/raft/test_test.go	/^func TestRejoin2B(t *testing.T) {$/;"	f
+TestReliableChurn2C	src/raft/test_test.go	/^func TestReliableChurn2C(t *testing.T) {$/;"	f
+TestSnapshot	src/shardkv/test_test.go	/^func TestSnapshot(t *testing.T) {$/;"	f
+TestSnapshotRPC3B	src/kvraft/test_test.go	/^func TestSnapshotRPC3B(t *testing.T) {$/;"	f
+TestSnapshotRecover3B	src/kvraft/test_test.go	/^func TestSnapshotRecover3B(t *testing.T) {$/;"	f
+TestSnapshotRecoverManyClients3B	src/kvraft/test_test.go	/^func TestSnapshotRecoverManyClients3B(t *testing.T) {$/;"	f
+TestSnapshotSize3B	src/kvraft/test_test.go	/^func TestSnapshotSize3B(t *testing.T) {$/;"	f
+TestSnapshotUnreliable3B	src/kvraft/test_test.go	/^func TestSnapshotUnreliable3B(t *testing.T) {$/;"	f
+TestSnapshotUnreliableRecover3B	src/kvraft/test_test.go	/^func TestSnapshotUnreliableRecover3B(t *testing.T) {$/;"	f
+TestSnapshotUnreliableRecoverConcurrentPartition3B	src/kvraft/test_test.go	/^func TestSnapshotUnreliableRecoverConcurrentPartition3B(t *testing.T) {$/;"	f
+TestSnapshotUnreliableRecoverConcurrentPartitionLinearizable3B	src/kvraft/test_test.go	/^func TestSnapshotUnreliableRecoverConcurrentPartitionLinearizable3B(t *testing.T) {$/;"	f
+TestStaticShards	src/shardkv/test_test.go	/^func TestStaticShards(t *testing.T) {$/;"	f
+TestTypes	src/labrpc/test_test.go	/^func TestTypes(t *testing.T) {$/;"	f
+TestUnreliable	src/labrpc/test_test.go	/^func TestUnreliable(t *testing.T) {$/;"	f
+TestUnreliable1	src/shardkv/test_test.go	/^func TestUnreliable1(t *testing.T) {$/;"	f
+TestUnreliable2	src/shardkv/test_test.go	/^func TestUnreliable2(t *testing.T) {$/;"	f
+TestUnreliable3	src/shardkv/test_test.go	/^func TestUnreliable3(t *testing.T) {$/;"	f
+TestUnreliable3A	src/kvraft/test_test.go	/^func TestUnreliable3A(t *testing.T) {$/;"	f
+TestUnreliableAgree2C	src/raft/test_test.go	/^func TestUnreliableAgree2C(t *testing.T) {$/;"	f
+TestUnreliableChurn2C	src/raft/test_test.go	/^func TestUnreliableChurn2C(t *testing.T) {$/;"	f
+TestUnreliableOneKey3A	src/kvraft/test_test.go	/^func TestUnreliableOneKey3A(t *testing.T) {$/;"	f
+Visualize	src/porcupine/visualization.go	/^func Visualize(model Model, info linearizationInfo, output io.Writer) error {$/;"	f
+VisualizePath	src/porcupine/visualization.go	/^func VisualizePath(model Model, info linearizationInfo, path string) error {$/;"	f
+Worker	src/mr/worker.go	/^func Worker(mapf func(string, string) []KeyValue,$/;"	f
+apply	src/raft/raft.go	/^func (rf *Raft) apply(applyIndex int, entry LogEntry) {$/;"	f
+applyLoop	src/raft/raft.go	/^func (rf *Raft) applyLoop() {$/;"	f
+args	src/labrpc/test_test.go	/^		var args JunkArgs$/;"	v
+becomeCandidate	src/raft/raft.go	/^func (rf *Raft) becomeCandidate() {$/;"	f
+becomeFollower	src/raft/raft.go	/^func (rf *Raft) becomeFollower(term int) {$/;"	f
+becomeLeader	src/raft/raft.go	/^func (rf *Raft) becomeLeader() {$/;"	f
+begin	src/kvraft/config.go	/^func (cfg *config) begin(description string) {$/;"	f
+begin	src/raft/config.go	/^func (cfg *config) begin(description string) {$/;"	f
+bitset	src/porcupine/bitset.go	/^type bitset []uint64$/;"	t
+bitsetIndex	src/porcupine/bitset.go	/^func bitsetIndex(pos uint) (uint, uint) {$/;"	f
+byTime	src/porcupine/checker.go	/^type byTime []entry$/;"	t
+bytesTotal	src/raft/config.go	/^func (cfg *config) bytesTotal() int64 {$/;"	f
+cacheContains	src/porcupine/checker.go	/^func cacheContains(model Model, cache map[uint64][]cacheEntry, entry cacheEntry) bool {$/;"	f
+cacheEntry	src/porcupine/checker.go	/^type cacheEntry struct {$/;"	t
+call	src/mr/worker.go	/^func call(rpcname string, args interface{}, reply interface{}) bool {$/;"	f
+calls	src/porcupine/checker.go	/^	var calls []callsEntry$/;"	v
+callsEntry	src/porcupine/checker.go	/^type callsEntry struct {$/;"	t
+check	src/kvraft/test_test.go	/^func check(cfg *config, t *testing.T, ck *Clerk, key string, value string) {$/;"	f
+check	src/shardkv/test_test.go	/^func check(t *testing.T, ck *Clerk, key string, value string) {$/;"	f
+check	src/shardmaster/test_test.go	/^func check(t *testing.T, groups []int, ck *Clerk) {$/;"	f
+checkClntAppends	src/kvraft/test_test.go	/^func checkClntAppends(t *testing.T, clnt int, v string, count int) {$/;"	f
+checkConcurrentAppends	src/kvraft/test_test.go	/^func checkConcurrentAppends(t *testing.T, v string, counts []int) {$/;"	f
+checkDefault	src/labgob/labgob.go	/^func checkDefault(value interface{}) {$/;"	f
+checkDefault1	src/labgob/labgob.go	/^func checkDefault1(value reflect.Value, depth int, name string) {$/;"	f
+checkEvents	src/porcupine/checker.go	/^func checkEvents(model Model, history []Event, verbose bool, timeout time.Duration) (CheckResult, linearizationInfo) {$/;"	f
+checkNoLeader	src/raft/config.go	/^func (cfg *config) checkNoLeader() {$/;"	f
+checkOneLeader	src/raft/config.go	/^func (cfg *config) checkOneLeader() int {$/;"	f
+checkOperations	src/porcupine/checker.go	/^func checkOperations(model Model, history []Operation, verbose bool, timeout time.Duration) (CheckResult, linearizationInfo) {$/;"	f
+checkParallel	src/porcupine/checker.go	/^func checkParallel(model Model, history [][]entry, computeInfo bool, timeout time.Duration) (CheckResult, linearizationInfo) {$/;"	f
+checkSingle	src/porcupine/checker.go	/^func checkSingle(model Model, history []entry, computePartial bool, kill *int32) (bool, []*[]int) {$/;"	f
+checkTerms	src/raft/config.go	/^func (cfg *config) checkTerms() int {$/;"	f
+checkTimeout	src/kvraft/config.go	/^func (cfg *config) checkTimeout() {$/;"	f
+checkTimeout	src/raft/config.go	/^func (cfg *config) checkTimeout() {$/;"	f
+checkTimeout	src/shardkv/config.go	/^func (cfg *config) checkTimeout() {$/;"	f
+checkTimeout	src/shardmaster/config.go	/^func (cfg *config) checkTimeout() {$/;"	f
+checkType	src/labgob/labgob.go	/^func checkType(t reflect.Type) {$/;"	f
+checkValue	src/labgob/labgob.go	/^func checkValue(value interface{}) {$/;"	f
+check_cmd	.check-build	/^check_cmd() {$/;"	f
+check_lab1	.check-build	/^check_lab1() {$/;"	f
+check_lab2	.check-build	/^check_lab2() {$/;"	f
+check_lab3	.check-build	/^check_lab3() {$/;"	f
+check_lab4a	.check-build	/^check_lab4a() {$/;"	f
+check_lab4b	.check-build	/^check_lab4b() {$/;"	f
+check_same_config	src/shardmaster/test_test.go	/^func check_same_config(t *testing.T, c1 Config, c2 Config) {$/;"	f
+checked	src/labgob/labgob.go	/^var checked map[reflect.Type]bool$/;"	v
+checklogs	src/shardkv/config.go	/^func (cfg *config) checklogs() {$/;"	f
+cka	src/shardmaster/test_test.go	/^	var cka [npara]*Clerk$/;"	v
+cleanup	src/kvraft/config.go	/^func (cfg *config) cleanup() {$/;"	f
+cleanup	src/raft/config.go	/^func (cfg *config) cleanup() {$/;"	f
+cleanup	src/shardkv/config.go	/^func (cfg *config) cleanup() {$/;"	f
+cleanup	src/shardmaster/config.go	/^func (cfg *config) cleanup() {$/;"	f
+clear	src/porcupine/bitset.go	/^func (b bitset) clear(pos uint) bitset {$/;"	f
+clone	src/porcupine/bitset.go	/^func (b bitset) clone() bitset {$/;"	f
+cmd	src/raft/config.go	/^	var cmd interface{} = nil$/;"	v
+computeVisualizationData	src/porcupine/visualization.go	/^func computeVisualizationData(model Model, info linearizationInfo) visualizationData {$/;"	f
+config	src/kvraft/config.go	/^type config struct {$/;"	t
+config	src/raft/config.go	/^type config struct {$/;"	t
+config	src/shardkv/config.go	/^type config struct {$/;"	t
+config	src/shardmaster/config.go	/^type config struct {$/;"	t
+connect	src/kvraft/config.go	/^func (cfg *config) connect(i int, to []int) {$/;"	f
+connect	src/raft/config.go	/^func (cfg *config) connect(i int) {$/;"	f
+connect	src/shardmaster/config.go	/^func (cfg *config) connect(i int, to []int) {$/;"	f
+connectUnlocked	src/kvraft/config.go	/^func (cfg *config) connectUnlocked(i int, to []int) {$/;"	f
+connectUnlocked	src/shardmaster/config.go	/^func (cfg *config) connectUnlocked(i int, to []int) {$/;"	f
+convertEntries	src/porcupine/checker.go	/^func convertEntries(events []Event) []entry {$/;"	f
+counts	src/kvraft/test_test.go	/^	var counts []int$/;"	v
+crash1	src/raft/config.go	/^func (cfg *config) crash1(i int) {$/;"	f
+currentTerm	src/raft/raft.go	/^    var currentTerm int$/;"	v
+deleteClient	src/kvraft/config.go	/^func (cfg *config) deleteClient(ck *Clerk) {$/;"	f
+deleteClient	src/shardkv/config.go	/^func (cfg *config) deleteClient(ck *Clerk) {$/;"	f
+deleteClient	src/shardmaster/config.go	/^func (cfg *config) deleteClient(ck *Clerk) {$/;"	f
+die	.check-build	/^die() {$/;"	f
+disconnect	src/kvraft/config.go	/^func (cfg *config) disconnect(i int, from []int) {$/;"	f
+disconnect	src/raft/config.go	/^func (cfg *config) disconnect(i int) {$/;"	f
+disconnect	src/shardmaster/config.go	/^func (cfg *config) disconnect(i int, from []int) {$/;"	f
+disconnectUnlocked	src/kvraft/config.go	/^func (cfg *config) disconnectUnlocked(i int, from []int) {$/;"	f
+disconnectUnlocked	src/shardmaster/config.go	/^func (cfg *config) disconnectUnlocked(i int, from []int) {$/;"	f
+dispatch	src/labrpc/labrpc.go	/^func (rs *Server) dispatch(req reqMsg) replyMsg {$/;"	f
+dispatch	src/labrpc/labrpc.go	/^func (svc *Service) dispatch(methname string, req reqMsg) replyMsg {$/;"	f
+done	src/shardkv/test_test.go	/^	var done int32$/;"	v
+electionLoop	src/raft/raft.go	/^func (rf *Raft) electionLoop() {    $/;"	f
+end	src/kvraft/config.go	/^func (cfg *config) end() {$/;"	f
+end	src/raft/config.go	/^func (cfg *config) end() {$/;"	f
+entries	src/porcupine/checker.go	/^	var entries []entry = nil$/;"	v
+entries	src/porcupine/checker.go	/^	var entries []entry$/;"	v
+entry	src/porcupine/checker.go	/^type entry struct {$/;"	t
+entryKind	src/porcupine/checker.go	/^type entryKind bool$/;"	t
+equals	src/porcupine/bitset.go	/^func (b bitset) equals(b2 bitset) bool {$/;"	f
+errorCount	src/labgob/labgob.go	/^var errorCount int \/\/ for TestCapital$/;"	v
+fillDefault	src/porcupine/checker.go	/^func fillDefault(model Model) Model {$/;"	f
+for	src/porcupine/model.go	/^	\/\/ Equality on states. If you are using a simple data type for states,$/;"	t
+get	src/porcupine/bitset.go	/^func (b bitset) get(pos uint) bool {$/;"	f
+getMajoritySameIndex	src/raft/raft.go	/^func getMajoritySameIndex(matchIndex []int) int {$/;"	f
+getRandomElectionTime	src/raft/raft.go	/^func getRandomElectionTime() time.Duration {$/;"	f
+gid	src/main/diskvd.go	/^	var gid int64 = -1     \/\/ my replica group ID$/;"	v
+gid	src/shardmaster/test_test.go	/^			var gid int = gids[i]$/;"	v
+gid	src/shardmaster/test_test.go	/^		var gid = int(npara + 1 + i)$/;"	v
+gid	src/shardmaster/test_test.go	/^		var gid = npara + 1 + i$/;"	v
+gid1	src/shardmaster/test_test.go	/^	var gid1 int = 1$/;"	v
+gid2	src/shardmaster/test_test.go	/^	var gid2 int = 2$/;"	v
+gid3	src/shardmaster/test_test.go	/^		var gid3 int = 503$/;"	v
+gid3	src/shardmaster/test_test.go	/^	var gid3 int = 3$/;"	v
+gid4	src/shardmaster/test_test.go	/^		var gid4 int = 504$/;"	v
+group	src/shardkv/config.go	/^type group struct {$/;"	t
+hash	src/porcupine/bitset.go	/^func (b bitset) hash() uint64 {$/;"	f
+header	src/raft/me_test.go	/^type header struct {$/;"	t
+historyElement	src/porcupine/visualization.go	/^type historyElement struct {$/;"	t
+ihash	src/mr/worker.go	/^func ihash(key string) int {$/;"	f
+info	src/porcupine/checker.go	/^	var info linearizationInfo$/;"	v
+inp	src/kvraft/test_test.go	/^				var inp models.KvInput$/;"	v
+inp	src/shardkv/test_test.go	/^			var inp models.KvInput$/;"	v
+insertBefore	src/porcupine/checker.go	/^func insertBefore(n *node, mark *node) *node {$/;"	f
+internalChurn	src/raft/test_test.go	/^func internalChurn(t *testing.T, unreliable bool) {$/;"	f
+isServerDead	src/labrpc/labrpc.go	/^func (rn *Network) isServerDead(endname interface{}, servername interface{}, server *Server) bool {$/;"	f
+join	src/shardkv/config.go	/^func (cfg *config) join(gi int) {$/;"	f
+joinm	src/shardkv/config.go	/^func (cfg *config) joinm(gis []int) {$/;"	f
+key2shard	src/shardkv/client.go	/^func key2shard(key string) int {$/;"	f
+killed	src/kvraft/server.go	/^func (kv *KVServer) killed() bool {$/;"	f
+killed	src/raft/raft.go	/^func (rf *Raft) killed() bool {$/;"	f
+leave	src/shardkv/config.go	/^func (cfg *config) leave(gi int) {$/;"	f
+leavem	src/shardkv/config.go	/^func (cfg *config) leavem(gis []int) {$/;"	f
+length	src/porcupine/checker.go	/^func length(n *node) int {$/;"	f
+lift	src/porcupine/checker.go	/^func lift(entry *node) {$/;"	f
+linearizationInfo	src/porcupine/checker.go	/^type linearizationInfo struct {$/;"	t
+linearizationStep	src/porcupine/visualization.go	/^type linearizationStep struct {$/;"	t
+loadPlugin	src/main/mrsequential.go	/^func loadPlugin(filename string) (func(string, string) []mr.KeyValue, func(string, []string) string) {$/;"	f
+loadPlugin	src/main/mrworker.go	/^func loadPlugin(filename string) (func(string, string) []mr.KeyValue, func(string, []string) string) {$/;"	f
+log	src/raft/raft.go	/^    var log []LogEntry$/;"	v
+main	.check-build	/^main() {$/;"	f
+main	src/main/diskvd.go	/^func main() {$/;"	f
+main	src/main/lockc.go	/^func main() {$/;"	f
+main	src/main/lockd.go	/^func main() {$/;"	f
+main	src/main/mrmaster.go	/^func main() {$/;"	f
+main	src/main/mrsequential.go	/^func main() {$/;"	f
+main	src/main/mrworker.go	/^func main() {$/;"	f
+main	src/main/pbc.go	/^func main() {$/;"	f
+main	src/main/pbd.go	/^func main() {$/;"	f
+main	src/main/viewd.go	/^func main() {$/;"	f
+makeClient	src/kvraft/config.go	/^func (cfg *config) makeClient(to []int) *Clerk {$/;"	f
+makeClient	src/shardkv/config.go	/^func (cfg *config) makeClient() *Clerk {$/;"	f
+makeClient	src/shardmaster/config.go	/^func (cfg *config) makeClient(to []int) *Clerk {$/;"	f
+makeEntries	src/porcupine/checker.go	/^func makeEntries(history []Operation) []entry {$/;"	f
+makeLinkedEntries	src/porcupine/checker.go	/^func makeLinkedEntries(entries []entry) *node {$/;"	f
+makeSeed	src/kvraft/config.go	/^func makeSeed() int64 {$/;"	f
+makeSeed	src/raft/config.go	/^func makeSeed() int64 {$/;"	f
+makeSeed	src/shardkv/config.go	/^func makeSeed() int64 {$/;"	f
+make_config	src/kvraft/config.go	/^func make_config(t *testing.T, n int, unreliable bool, maxraftstate int) *config {$/;"	f
+make_config	src/raft/config.go	/^func make_config(t *testing.T, n int, unreliable bool) *config {$/;"	f
+make_config	src/shardkv/config.go	/^func make_config(t *testing.T, n int, unreliable bool, maxraftstate int) *config {$/;"	f
+make_config	src/shardmaster/config.go	/^func make_config(t *testing.T, n int, unreliable bool) *config {$/;"	f
+make_partition	src/kvraft/config.go	/^func (cfg *config) make_partition() ([]int, []int) {$/;"	f
+make_partition	src/shardmaster/config.go	/^func (cfg *config) make_partition() ([]int, []int) {$/;"	f
+masterSock	src/mr/rpc.go	/^func masterSock() string {$/;"	f
+mastername	src/shardkv/config.go	/^func (cfg *config) mastername(i int) string {$/;"	f
+maybeCrash	src/mrapps/crash.go	/^func maybeCrash() {$/;"	f
+maybeCrash	src/mrapps/nocrash.go	/^func maybeCrash() {$/;"	f
+minInt	src/raft/raft.go	/^func minInt(a, b int) int {$/;"	f
+mu	src/labgob/labgob.go	/^var mu sync.Mutex$/;"	v
+nCommitted	src/raft/config.go	/^func (cfg *config) nCommitted(index int) (int, interface{}) {$/;"	f
+ncpu_once	src/kvraft/config.go	/^var ncpu_once sync.Once$/;"	v
+ncpu_once	src/raft/config.go	/^var ncpu_once sync.Once$/;"	v
+ncpu_once	src/shardkv/config.go	/^var ncpu_once sync.Once$/;"	v
+newBitset	src/porcupine/bitset.go	/^func newBitset(bits uint) bitset {$/;"	f
+node	src/porcupine/checker.go	/^type node struct {$/;"	t
+nparallel	src/mrapps/mtiming.go	/^func nparallel(phase string) int {$/;"	f
+nparallel	src/mrapps/rtiming.go	/^func nparallel(phase string) int {$/;"	f
+nrand	src/kvraft/client.go	/^func nrand() int64 {$/;"	f
+nrand	src/shardkv/client.go	/^func nrand() int64 {$/;"	f
+nrand	src/shardmaster/client.go	/^func nrand() int64 {$/;"	f
+ok	src/main/lockc.go	/^		var ok bool$/;"	v
+ok	src/porcupine/visualization.go	/^				var ok bool$/;"	v
+one	src/raft/config.go	/^func (cfg *config) one(cmd interface{}, expectedServers int, retry bool) int {$/;"	f
+op	src/kvraft/config.go	/^func (cfg *config) op() {$/;"	f
+opMu	src/kvraft/test_test.go	/^	var opMu sync.Mutex$/;"	v
+opMu	src/shardkv/test_test.go	/^	var opMu sync.Mutex$/;"	v
+operations	src/kvraft/test_test.go	/^	var operations []porcupine.Operation$/;"	v
+operations	src/shardkv/test_test.go	/^	var operations []porcupine.Operation$/;"	v
+out	src/kvraft/test_test.go	/^				var out models.KvOutput$/;"	v
+out	src/shardkv/test_test.go	/^			var out models.KvOutput$/;"	v
+out	src/shardkv/test_test.go	/^		var out models.KvOutput$/;"	v
+partialLinearization	src/porcupine/visualization.go	/^type partialLinearization = []linearizationStep$/;"	t
+partials	src/porcupine/checker.go	/^			var partials [][]int$/;"	v
+partition	src/kvraft/config.go	/^func (cfg *config) partition(p1 []int, p2 []int) {$/;"	f
+partition	src/shardmaster/config.go	/^func (cfg *config) partition(p1 []int, p2 []int) {$/;"	f
+partitionVisualizationData	src/porcupine/visualization.go	/^type partitionVisualizationData struct {$/;"	t
+partitioner	src/kvraft/test_test.go	/^func partitioner(t *testing.T, cfg *config, ch chan bool, done *int32) {$/;"	f
+persist	src/raft/raft.go	/^func (rf *Raft) persist() {$/;"	f
+pingLoop	src/raft/raft.go	/^func (rf *Raft) pingLoop() {$/;"	f
+popcnt	src/porcupine/bitset.go	/^func (b bitset) popcnt() uint {$/;"	f
+processReq	src/labrpc/labrpc.go	/^func (rn *Network) processReq(req reqMsg) {$/;"	f
+random_handles	src/kvraft/config.go	/^func random_handles(kvh []*labrpc.ClientEnd) []*labrpc.ClientEnd {$/;"	f
+random_handles	src/shardkv/config.go	/^func random_handles(kvh []*labrpc.ClientEnd) []*labrpc.ClientEnd {$/;"	f
+random_handles	src/shardmaster/config.go	/^func random_handles(kvh []*labrpc.ClientEnd) []*labrpc.ClientEnd {$/;"	f
+randstring	src/kvraft/config.go	/^func randstring(n int) string {$/;"	f
+randstring	src/raft/config.go	/^func randstring(n int) string {$/;"	f
+randstring	src/shardkv/config.go	/^func randstring(n int) string {$/;"	f
+randstring	src/shardmaster/config.go	/^func randstring(n int) string {$/;"	f
+readEndnameInfo	src/labrpc/labrpc.go	/^func (rn *Network) readEndnameInfo(endname interface{}) (enabled bool,$/;"	f
+readPersist	src/raft/raft.go	/^func (rf *Raft) readPersist(data []byte) {$/;"	f
+renumber	src/porcupine/checker.go	/^func renumber(events []Event) []Event {$/;"	f
+reply	src/labrpc/labrpc.go	/^		var reply replyMsg$/;"	v
+reply	src/labrpc/test_test.go	/^		var reply JunkReply$/;"	v
+reply	src/shardkv/client.go	/^				var reply GetReply$/;"	v
+reply	src/shardkv/client.go	/^				var reply PutAppendReply$/;"	v
+reply	src/shardmaster/client.go	/^			var reply JoinReply$/;"	v
+reply	src/shardmaster/client.go	/^			var reply LeaveReply$/;"	v
+reply	src/shardmaster/client.go	/^			var reply MoveReply$/;"	v
+reply	src/shardmaster/client.go	/^			var reply QueryReply$/;"	v
+replyMsg	src/labrpc/labrpc.go	/^type replyMsg struct {$/;"	t
+reqMsg	src/labrpc/labrpc.go	/^type reqMsg struct {$/;"	t
+result	src/porcupine/checker.go	/^	var result CheckResult$/;"	v
+ret	src/raft/test_test.go	/^		var ret []int$/;"	v
+rf	src/raft/config.go	/^			var rf *Raft$/;"	v
+root	src/porcupine/checker.go	/^	var root *node = nil$/;"	v
+rpcCount	src/raft/config.go	/^func (cfg *config) rpcCount(server int) int {$/;"	f
+rpcTotal	src/kvraft/config.go	/^func (cfg *config) rpcTotal() int {$/;"	f
+rpcTotal	src/raft/config.go	/^func (cfg *config) rpcTotal() int {$/;"	f
+run_client	src/kvraft/test_test.go	/^func run_client(t *testing.T, cfg *config, me int, ca chan bool, fn func(me int, ck *Clerk, t *testing.T)) {$/;"	f
+sendLogEntries	src/raft/raft.go	/^func (rf *Raft) sendLogEntries(server int, args *AppendEntriesArgs, reply *AppendEntriesReply) bool {$/;"	f
+sendRequestVote	src/raft/raft.go	/^func (rf *Raft) sendRequestVote(server int, args *RequestVoteArgs, reply *RequestVoteReply) bool {$/;"	f
+sent	src/raft/test_test.go	/^	var sent int64 = 0$/;"	v
+seq	src/porcupine/checker.go	/^				var seq []int = nil$/;"	v
+server	src/mr/master.go	/^func (m *Master) server() {$/;"	f
+servername	src/shardkv/config.go	/^func (cfg *config) servername(gid int, i int) string {$/;"	f
+set	src/porcupine/bitset.go	/^func (b bitset) set(pos uint) bitset {$/;"	f
+setlongreordering	src/raft/config.go	/^func (cfg *config) setlongreordering(longrel bool) {$/;"	f
+setunreliable	src/raft/config.go	/^func (cfg *config) setunreliable(unrel bool) {$/;"	f
+shardclerk	src/shardkv/config.go	/^func (cfg *config) shardclerk() *shardmaster.Clerk {$/;"	f
+sid1	src/shardmaster/test_test.go	/^			var sid1 = fmt.Sprintf("s%da", gid)$/;"	v
+sid2	src/shardmaster/test_test.go	/^			var sid2 = fmt.Sprintf("s%db", gid)$/;"	v
+spawn_clients_and_wait	src/kvraft/test_test.go	/^func spawn_clients_and_wait(t *testing.T, cfg *config, ncli int, fn func(me int, ck *Clerk, t *testing.T)) {$/;"	f
+start1	src/raft/config.go	/^func (cfg *config) start1(i int) {$/;"	f
+success	src/raft/test_test.go	/^	var success bool$/;"	v
+t1	src/labgob/test_test.go	/^		var t1 T1$/;"	v
+t2	src/labgob/test_test.go	/^		var t2 T2$/;"	v
+timeoutChan	src/porcupine/checker.go	/^	var timeoutChan <-chan time.Time$/;"	v
+total2	src/raft/test_test.go	/^	var total2 int$/;"	v
+unlift	src/porcupine/checker.go	/^func unlift(entry *node) {$/;"	f
+upToDate	src/raft/raft.go	/^func upToDate(currTerm int, currIndex int, dstTerm int, dstIndex int) bool {$/;"	f
+usage	src/main/diskvd.go	/^func usage() {$/;"	f
+usage	src/main/lockc.go	/^func usage() {$/;"	f
+usage	src/main/pbc.go	/^func usage() {$/;"	f
+v1	src/labgob/test_test.go	/^	var v1 []map[T4]int$/;"	v
+visualizationData	src/porcupine/visualization.go	/^type visualizationData = []partitionVisualizationData$/;"	t
+votedFor	src/raft/raft.go	/^	var votedFor    int$/;"	v
+wait	src/raft/config.go	/^func (cfg *config) wait(index int, n int, startTerm int) interface{} {$/;"	f
+wg	src/raft/test_test.go	/^		var wg sync.WaitGroup$/;"	v
+wg	src/raft/test_test.go	/^	var wg sync.WaitGroup$/;"	v
+wg	src/shardmaster/test_test.go	/^	var wg sync.WaitGroup$/;"	v
+will	src/labrpc/labrpc.go	/^		\/\/ the Value's type will be a pointer to req.argsType.$/;"	t
+x0	src/labgob/test_test.go	/^		var x0 int$/;"	v
+x1	src/labgob/test_test.go	/^		var x1 int$/;"	v
+xpid	src/mrapps/mtiming.go	/^		var xpid int$/;"	v
+xpid	src/mrapps/rtiming.go	/^		var xpid int$/;"	v

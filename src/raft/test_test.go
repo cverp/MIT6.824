@@ -14,6 +14,7 @@ import "time"
 import "math/rand"
 import "sync/atomic"
 import "sync"
+import "encoding/json"
 
 // The tester generously allows solutions to complete elections in one second
 // (much more than the paper's range of timeouts).
@@ -22,6 +23,9 @@ const RaftElectionTimeout = 1000 * time.Millisecond
 func TestInitialElection2A(t *testing.T) {
 	servers := 3
 	cfg := make_config(t, servers, false)
+
+    data,_ := json.Marshal(cfg)
+    fmt.Printf("%s\n",data)
 	defer cfg.cleanup()
 
 	cfg.begin("Test (2A): initial election")
